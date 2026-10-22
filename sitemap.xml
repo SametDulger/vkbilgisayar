@@ -1,87 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.vkbilgisayar.com/</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://www.vkbilgisayar.com/kurumsal.html</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.vkbilgisayar.com/urun-gruplari.html</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vkbilgisayar.com/toner-kartus.html</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.vkbilgisayar.com/kartus-murekkep.html</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.vkbilgisayar.com/yazici-fotokopi.html</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.vkbilgisayar.com/bilgisayar-cevre-birimleri.html</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.vkbilgisayar.com/guvenlik-sistemleri.html</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.vkbilgisayar.com/kurumsal-toplu-tedarik.html</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.vkbilgisayar.com/markalar.html</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.vkbilgisayar.com/teklif-al.html</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.vkbilgisayar.com/iletisim.html</loc><lastmod>2026-10-19</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vkbilgisayar.com/</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.vkbilgisayar.com/kurumsal.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.vkbilgisayar.com/urun-gruplari.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vkbilgisayar.com/toner-kartus.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.vkbilgisayar.com/kartus-murekkep.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.vkbilgisayar.com/yazici-fotokopi.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.vkbilgisayar.com/bilgisayar-cevre-birimleri.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.vkbilgisayar.com/guvenlik-sistemleri.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.vkbilgisayar.com/kurumsal-toplu-tedarik.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.vkbilgisayar.com/markalar.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.vkbilgisayar.com/teklif-al.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.vkbilgisayar.com/iletisim.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url>
     <loc>https://www.vkbilgisayar.com/kagit-etiket.html</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-21</lastmod>
   </url>
   <url>
     <loc>https://www.vkbilgisayar.com/ag-iletisim-urunleri.html</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-21</lastmod>
   </url>
   <url>
     <loc>https://www.vkbilgisayar.com/depolama-bellek.html</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-21</lastmod>
   </url>
   <url>
     <loc>https://www.vkbilgisayar.com/ups-guc-cozumleri.html</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-21</lastmod>
   </url>
   <url>
     <loc>https://www.vkbilgisayar.com/barkod-pos-urunleri.html</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-21</lastmod>
   </url>
   <url>
     <loc>https://www.vkbilgisayar.com/sunum-toplanti-urunleri.html</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-21</lastmod>
   </url>
   <url>
     <loc>https://www.vkbilgisayar.com/tablet-mobil-cihazlar.html</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-21</lastmod>
   </url>
   <url>
     <loc>https://www.vkbilgisayar.com/yazilim-lisans.html</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-21</lastmod>
   </url>
   <url>
     <loc>https://www.vkbilgisayar.com/sunucu-veri-merkezi.html</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-21</lastmod>
   </url>
   <url>
     <loc>https://www.vkbilgisayar.com/gecis-kontrol-alarm.html</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-21</lastmod>
   </url>
   <url>
     <loc>https://www.vkbilgisayar.com/bilgisayar-bilesenleri.html</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-21</lastmod>
   </url>
   <url>
     <loc>https://www.vkbilgisayar.com/ergonomik-calisma-urunleri.html</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-21</lastmod>
   </url>
   <url>
     <loc>https://www.vkbilgisayar.com/kablo-baglanti-urunleri.html</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-21</lastmod>
   </url>
   <url>
     <loc>https://www.vkbilgisayar.com/telefon-santral-urunleri.html</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-21</lastmod>
   </url>
   <url>
     <loc>https://www.vkbilgisayar.com/tarayici-arsiv-urunleri.html</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-21</lastmod>
   </url>
   <url>
     <loc>https://www.vkbilgisayar.com/ofis-makineleri.html</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-21</lastmod>
   </url>
   <url>
     <loc>https://www.vkbilgisayar.com/dijital-tabela-ekran.html</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-21</lastmod>
   </url>
   <url>
     <loc>https://www.vkbilgisayar.com/yazarkasa-perakende-urunleri.html</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vkbilgisayar.com/rehber.html</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vkbilgisayar.com/gizlilik.html</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vkbilgisayar.com/rehber-orijinal-ve-muadil-toner-farki.html</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vkbilgisayar.com/rehber-yazicim-icin-toner-kodu-nasil-bulunur.html</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vkbilgisayar.com/rehber-lazer-ve-murekkep-puskurtmeli-yazici-farki.html</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vkbilgisayar.com/rehber-ups-kapasitesi-nasil-hesaplanir.html</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vkbilgisayar.com/rehber-ip-kamera-ile-analog-kamera-farki.html</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vkbilgisayar.com/rehber-access-point-sayisi-nasil-belirlenir.html</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vkbilgisayar.com/rehber-ssd-ve-ram-yukseltme-rehberi.html</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vkbilgisayar.com/rehber-barkod-okuyucu-nasil-secilir.html</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vkbilgisayar.com/rehber-toplu-teklif-listesi-nasil-hazirlanir.html</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vkbilgisayar.com/rehber-monitor-kolu-secimi-ve-vesa-standardi.html</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vkbilgisayar.com/rehber-kagit-gramaji-ve-ebat-rehberi.html</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vkbilgisayar.com/rehber-veri-yedekleme-nas-mi-harici-disk-mi.html</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vkbilgisayar.com/rehber-hp-toner-kodlari-nasil-okunur.html</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vkbilgisayar.com/rehber-brother-toner-ve-drum-farki.html</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vkbilgisayar.com/rehber-canon-toner-ve-kartus-kodlari.html</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.vkbilgisayar.com/rehber-epson-murekkep-ve-kartus-secimi.html</loc>
+    <lastmod>2026-10-21</lastmod>
   </url>
 </urlset>
