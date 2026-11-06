@@ -1,0 +1,149 @@
+/* Compact guide directory cards: retain readable copy while removing artificial bottom whitespace. */
+.guide-results-grid {
+  align-items: start;
+  row-gap: 14px;
+}
+.guide-results-grid .principle-card {
+  min-height: 0;
+  padding: 16px 18px 15px 22px;
+}
+.guide-results-grid .principle-card::before {
+  top: 15px;
+  bottom: 15px;
+}
+.guide-results-grid .principle-card h3 {
+  margin: 0 0 6px;
+  line-height: 1.38;
+}
+.guide-results-grid .principle-card p {
+  margin: 0 0 10px;
+  line-height: 1.55;
+}
+.guide-results-grid .principle-card .principle-link {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+
+/* Category-based guide directory with independent pagination per category. */
+.guide-directory-tools {
+  grid-template-columns: minmax(240px, 1fr) auto;
+}
+.guide-directory-tools .guide-search-field {
+  min-width: 0;
+}
+.guide-directory-tools .guide-result-count {
+  margin: 0;
+  color: #60738c;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.guide-category-sections {
+  display: grid;
+  gap: 38px;
+}
+.guide-category-section {
+  min-width: 0;
+  scroll-margin-top: 110px;
+}
+.guide-category-section[hidden] {
+  display: none !important;
+}
+.guide-category-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 0 0 14px;
+  padding: 0 0 12px;
+  border-bottom: 1px solid #e3ebf4;
+}
+.guide-category-heading-copy {
+  min-width: 0;
+}
+.guide-category-eyebrow {
+  margin: 0 0 5px;
+  color: #71839a;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .12em;
+}
+.guide-category-heading h2 {
+  margin: 0;
+  color: #0a1d40;
+  font-size: clamp(20px, 2.1vw, 25px);
+  line-height: 1.28;
+}
+.guide-category-total {
+  flex: 0 0 auto;
+  padding: 5px 10px;
+  border: 1px solid #dfe9f5;
+  border-radius: 999px;
+  color: #536780;
+  background: #f8fbff;
+  font-size: 11px;
+  font-weight: 750;
+}
+.guide-category-section .guide-results-grid {
+  margin-top: 0;
+}
+.guide-category-section .guide-pagination {
+  margin-top: 18px;
+}
+@media (max-width: 760px) {
+  .guide-directory-tools {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .guide-directory-tools .guide-result-count {
+    white-space: normal;
+  }
+  .guide-category-sections {
+    gap: 30px;
+  }
+  .guide-category-heading {
+    align-items: center;
+    gap: 10px;
+  }
+  .guide-category-heading h2 {
+    font-size: 19px;
+  }
+}
+
+
+/* Clean guide directory: no visible quantity counters and compact category pagination. */
+.guide-directory-tools {
+  grid-template-columns: minmax(0, 1fr);
+}
+.guide-category-section .guide-directory-pagination {
+  gap: 8px;
+  margin: 16px auto 0;
+}
+.guide-category-section .guide-directory-pagination button {
+  min-height: 32px;
+  padding: 0 11px;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 700;
+}
+.guide-category-section .guide-directory-pagination span {
+  min-width: 76px;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+@media (max-width: 760px) {
+  .guide-category-section .guide-directory-pagination {
+    gap: 7px;
+    margin-top: 14px;
+  }
+  .guide-category-section .guide-directory-pagination button {
+    min-height: 30px;
+    padding-inline: 9px;
+    font-size: 10.5px;
+  }
+  .guide-category-section .guide-directory-pagination span {
+    min-width: 68px;
+    font-size: 10.5px;
+  }
+}
