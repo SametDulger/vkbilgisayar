@@ -778,3 +778,25 @@
     min-height: 210px;
   }
 }
+
+/* VK REVISION R05 (2026-11-07): Readable category carousel in tablet widths. */
+@media (min-width: 761px) and (max-width: 980px) {
+  .homepage .product-rail-section .rail-card {
+    flex: 0 0 calc((100% - 20px) / 3);
+    min-width: 176px;
+  }
+  .homepage .product-rail-section .rail-card .category-card-link {
+    min-height: 245px;
+  }
+  .homepage .product-rail-section .rail-card .category-card-copy {
+    padding: 14px 39px 15px 13px;
+  }
+  .homepage .product-rail-section .rail-card .category-card-copy h3 {
+    display: block;
+    overflow: visible;
+    -webkit-line-clamp: unset;
+    overflow-wrap: break-word;
+    font-size: 14px;
+    line-height: 1.3;
+  }
+}

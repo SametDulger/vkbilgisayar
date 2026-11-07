@@ -388,3 +388,25 @@
 @media(max-width:1050px){.brand-directory-section .brand-tile-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
 @media(max-width:680px){.brand-directory-section .brand-toolbar-compact{max-width:none;margin-bottom:18px}.brand-directory-section .brand-category-sections{gap:21px}.brand-directory-section .brand-category-heading h2{font-size:16px}.brand-directory-section .brand-tile-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.brand-directory-section .brand-tile{min-height:46px;padding:8px}.brand-directory-section .brand-category-section{padding-bottom:18px}}
 @media(prefers-reduced-motion:reduce){.brand-directory-section .brand-tile{transition:none}.brand-directory-section .brand-tile:hover{transform:none}}
+
+/* VK REVISION R01 (2026-11-07): Single scrollable mobile navigation; preserve desktop layout. */
+@media (max-width:980px) {
+  #primary-navigation.open {
+    max-height: calc(100vh - 112px);
+    max-height: calc(100dvh - 112px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+    -webkit-overflow-scrolling: touch;
+    scroll-padding-block: 12px;
+  }
+  #primary-navigation #product-menu {
+    max-height: none;
+    overflow: visible;
+  }
+  /* The menu remains closed while the keyboard focus is on its trigger. */
+  #primary-navigation .nav-dropdown:not(.open) #product-menu,
+  #primary-navigation .nav-dropdown:not(.open):focus-within #product-menu {
+    display: none;
+  }
+}
