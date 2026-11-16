@@ -12,7 +12,8 @@
   const normalize = (value) => String(value || "")
     .toLocaleLowerCase("tr-TR")
     .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "");
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/ı/g, "i");
 
   const groups = categorySections.map((section) => {
     const cards = Array.from(section.querySelectorAll(".principle-card"));

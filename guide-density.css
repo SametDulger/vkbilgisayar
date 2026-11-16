@@ -13,11 +13,11 @@
 }
 .guide-results-grid .principle-card h3 {
   margin: 0 0 6px;
-  line-height: 1.38;
+  line-height: var(--vk-card-line);
 }
 .guide-results-grid .principle-card p {
   margin: 0 0 10px;
-  line-height: 1.55;
+  line-height: var(--vk-small-line);
 }
 .guide-results-grid .principle-card .principle-link {
   margin-top: 0;
@@ -41,11 +41,10 @@
 }
 .guide-category-sections {
   display: grid;
-  gap: 38px;
+  gap: var(--vk-section-space);
 }
 .guide-category-section {
   min-width: 0;
-  scroll-margin-top: 110px;
 }
 .guide-category-section[hidden] {
   display: none !important;
@@ -55,8 +54,8 @@
   align-items: flex-end;
   justify-content: space-between;
   gap: 16px;
-  margin: 0 0 14px;
-  padding: 0 0 12px;
+  margin: 0 0 12px;
+  padding: 0 0 9px;
   border-bottom: 1px solid #e3ebf4;
 }
 .guide-category-heading-copy {
@@ -72,8 +71,8 @@
 .guide-category-heading h2 {
   margin: 0;
   color: #0a1d40;
-  font-size: clamp(20px, 2.1vw, 25px);
-  line-height: 1.28;
+  font-size: var(--vk-section-size);
+  line-height: var(--vk-section-line);
 }
 .guide-category-total {
   flex: 0 0 auto;
@@ -98,15 +97,9 @@
   .guide-directory-tools .guide-result-count {
     white-space: normal;
   }
-  .guide-category-sections {
-    gap: 30px;
-  }
   .guide-category-heading {
     align-items: center;
     gap: 10px;
-  }
-  .guide-category-heading h2 {
-    font-size: 19px;
   }
 }
 
@@ -117,33 +110,29 @@
 }
 .guide-category-section .guide-directory-pagination {
   gap: 8px;
-  margin: 16px auto 0;
+  margin: 12px auto 0;
 }
 .guide-category-section .guide-directory-pagination button {
-  min-height: 32px;
+  min-height: 40px;
   padding: 0 11px;
   border-radius: 8px;
-  font-size: 11px;
+  font-size: var(--vk-label-size);
   font-weight: 700;
 }
 .guide-category-section .guide-directory-pagination span {
   min-width: 76px;
-  font-size: 11px;
+  font-size: var(--vk-label-size);
   font-weight: 700;
   line-height: 1.25;
 }
 @media (max-width: 760px) {
   .guide-category-section .guide-directory-pagination {
     gap: 7px;
-    margin-top: 14px;
   }
   .guide-category-section .guide-directory-pagination button {
-    min-height: 30px;
     padding-inline: 9px;
-    font-size: 10.5px;
   }
   .guide-category-section .guide-directory-pagination span {
     min-width: 68px;
-    font-size: 10.5px;
   }
 }

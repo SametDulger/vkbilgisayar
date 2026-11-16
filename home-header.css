@@ -1,0 +1,554 @@
+/* Site genelinde ortak üst bilgi ve menü stilleri. */
+:is(.homepage, .corporate-page, .inner-page) .topbar,
+:is(.homepage, .corporate-page, .inner-page) .site-header {
+  --vk-header-ink: #07152e;
+  --vk-header-blue: #0065fa;
+  --vk-header-blue-top: #087cff;
+  --vk-header-blue-bottom: #005af0;
+  --vk-header-surface: #ffffff;
+  --vk-header-soft: #f1f4f9;
+  --vk-header-rule: #e5ebf3;
+  --vk-header-divider: #c6d2e1;
+  --vk-header-hover: #eef5ff;
+}
+
+:is(.homepage, .corporate-page, .inner-page) .topbar {
+  color: var(--vk-header-ink);
+  background: linear-gradient(180deg, #f4f6fa, var(--vk-header-soft));
+  border-bottom: 1px solid var(--vk-header-rule);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+:is(.homepage, .corporate-page, .inner-page) .topbar .topbar-inner {
+  min-height: 32px;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+:is(.homepage, .corporate-page, .inner-page) .topbar .topbar-message {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  color: var(--vk-header-ink);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -.015em;
+  white-space: nowrap;
+}
+
+:is(.homepage, .corporate-page, .inner-page) .topbar .topbar-message svg {
+  width: 12px;
+  height: 17px;
+  color: var(--vk-header-blue);
+  fill: currentColor;
+  stroke: none;
+}
+
+:is(.homepage, .corporate-page, .inner-page) .topbar .topbar-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+:is(.homepage, .corporate-page, .inner-page) .topbar .topbar-links a,
+:is(.homepage, .corporate-page, .inner-page) .topbar .topbar-location {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--vk-header-ink);
+  font-size: 12px;
+  font-weight: 650;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+
+:is(.homepage, .corporate-page, .inner-page) .topbar .topbar-links svg {
+  width: 16px;
+  height: 16px;
+  color: var(--vk-header-blue);
+  stroke-width: 1.8;
+}
+
+:is(.homepage, .corporate-page, .inner-page) .topbar .topbar-links a[href]:hover {
+  color: #004fca;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+:is(.homepage, .corporate-page, .inner-page) .topbar .topbar-email-short {
+  display: none;
+}
+
+:is(.homepage, .corporate-page, .inner-page) .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 32;
+  color: var(--vk-header-ink);
+  background: var(--vk-header-surface);
+  border-bottom: 1px solid var(--vk-header-rule);
+  box-shadow: 0 2px 10px rgba(18, 47, 84, .035);
+  backdrop-filter: none;
+}
+
+:is(.homepage, .corporate-page, .inner-page) .site-header .header-inner {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  min-height: 65px;
+  gap: 0;
+}
+
+:is(.homepage, .corporate-page, .inner-page) .site-header .brand {
+  display: block;
+  order: 0;
+  flex: 0 0 clamp(235px, 16.75vw, 280px);
+  width: clamp(235px, 16.75vw, 280px);
+  max-width: none;
+  margin: 0;
+}
+
+:is(.homepage, .corporate-page, .inner-page) .site-header .brand picture,
+:is(.homepage, .corporate-page, .inner-page) .site-header .brand img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+  min-height: 0;
+  max-height: none;
+  object-fit: contain;
+}
+
+:is(.homepage, .corporate-page, .inner-page) .site-header .primary-nav {
+  position: static;
+  display: flex;
+  order: 1;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 15px;
+  width: auto;
+  min-width: 0;
+  margin: 0 0 0 auto;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+:is(.homepage, .corporate-page, .inner-page) .site-header .nav-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: auto;
+  min-height: 36px;
+  padding: 0 15px;
+  border: 0;
+  border-radius: 10px;
+  color: var(--vk-header-ink);
+  background: transparent;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -.018em;
+  white-space: nowrap;
+}
+
+:is(.homepage, .corporate-page, .inner-page) .site-header .nav-link:hover {
+  color: #0056cf;
+  background: var(--vk-header-hover);
+}
+
+:is(.homepage, .corporate-page, .inner-page) .site-header .nav-link.active:not(.home-header-quote) {
+  min-height: 34px;
+  padding-inline: 18px;
+  color: #fff;
+  background: linear-gradient(180deg, var(--vk-header-blue-top), var(--vk-header-blue-bottom));
+  box-shadow: 0 5px 13px rgba(0, 92, 244, .17);
+}
+
+:is(.homepage, .corporate-page, .inner-page) .site-header .dropdown-trigger > svg {
+  width: 14px;
+  height: 14px;
+  stroke-width: 2;
+}
+
+:is(.homepage, .corporate-page, .inner-page) .site-header .home-header-quote-wrap {
+  position: relative;
+  display: flex;
+  order: 3;
+  flex: 0 0 auto;
+  align-items: center;
+  margin-inline-start: 22px;
+  padding-inline-start: 36px;
+}
+
+:is(.homepage, .corporate-page, .inner-page) .site-header .home-header-quote-wrap::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 1px;
+  height: 29px;
+  background: var(--vk-header-divider);
+  transform: translateY(-50%);
+  content: "";
+}
+
+:is(.homepage, .corporate-page, .inner-page) .site-header .home-header-quote {
+  display: inline-flex;
+  justify-content: center;
+  gap: 10px;
+  width: 162px;
+  min-height: 38px;
+  padding: 6px 15px;
+  border-radius: 11px;
+  color: #fff;
+  background: linear-gradient(180deg, var(--vk-header-blue-top), var(--vk-header-blue-bottom));
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+  box-shadow: 0 5px 14px rgba(0, 91, 244, .17);
+}
+
+/* Keep the quote button's geometry while indicating its current-page state. */
+:is(.homepage, .corporate-page, .inner-page) .site-header .home-header-quote.active {
+  box-shadow: inset 0 0 0 2px #c6e2ff, 0 5px 14px rgba(0, 91, 244, .17);
+}
+
+:is(.homepage, .corporate-page, .inner-page) .site-header .home-header-quote:hover {
+  color: #fff;
+  background: #0056de;
+  box-shadow: 0 6px 16px rgba(0, 91, 244, .22);
+}
+
+:is(.homepage, .corporate-page, .inner-page) .site-header .home-header-quote > svg {
+  width: 18px;
+  height: 18px;
+  stroke-width: 1.8;
+}
+
+:is(.homepage, .corporate-page, .inner-page) .site-header :is(a, button):focus-visible,
+:is(.homepage, .corporate-page, .inner-page) .topbar a:focus-visible {
+  outline: 2px solid #004fca;
+  outline-offset: 3px;
+}
+
+:is(.homepage, .corporate-page, .inner-page) .site-header .menu-toggle {
+  display: none;
+  order: 2;
+}
+
+/* The existing script owns .open and Escape focus restoration. */
+:is(.homepage, .corporate-page, .inner-page) .site-header .nav-dropdown {
+  position: static;
+}
+
+:is(.homepage, .corporate-page, .inner-page) .site-header .nav-dropdown .dropdown-menu {
+  position: absolute;
+  top: calc(100% + 5px);
+  right: 0;
+  left: auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px 16px;
+  width: min(880px, 100%);
+  min-width: 0;
+  max-height: min(72vh, 660px);
+  padding: 17px;
+  overflow: auto;
+  overscroll-behavior: contain;
+  border: 1px solid var(--vk-header-rule);
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 13px 32px rgba(18, 47, 84, .12);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(5px);
+}
+
+:is(.homepage, .corporate-page, .inner-page) .site-header .nav-dropdown.open .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: none;
+}
+
+:is(.homepage, .corporate-page, .inner-page) .site-header .dropdown-menu .dropdown-heading {
+  color: var(--vk-header-ink);
+  font-size: 13px;
+  font-weight: 750;
+}
+
+:is(.homepage, .corporate-page, .inner-page) .site-header .dropdown-menu .dropdown-section a {
+  display: block;
+  padding: 7px 8px;
+  color: #354b69;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+:is(.homepage, .corporate-page, .inner-page) .site-header .dropdown-menu .dropdown-section a:hover {
+  color: #004fca;
+  background: var(--vk-header-hover);
+}
+
+:is(.homepage, .corporate-page, .inner-page) .site-header .dropdown-menu .dropdown-all {
+  color: #fff;
+  background: var(--vk-header-blue);
+}
+
+@media (max-width: 1399px) {
+  :is(.homepage, .corporate-page, .inner-page) .site-header .primary-nav {
+    gap: 12px;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .nav-link {
+    padding-inline: 11px;
+    font-size: 13px;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .nav-link.active:not(.home-header-quote) {
+    padding-inline: 16px;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .home-header-quote-wrap {
+    margin-inline-start: 18px;
+    padding-inline-start: 25px;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .home-header-quote {
+    width: 150px;
+    padding-inline: 12px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1279px) {
+  :is(.homepage, .corporate-page, .inner-page) .site-header .brand {
+    flex-basis: clamp(205px, 28vw, 240px);
+    width: clamp(205px, 28vw, 240px);
+    flex-shrink: 1;
+    min-width: 0;
+    margin-inline-end: auto;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .menu-toggle {
+    display: flex;
+    flex: 0 0 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    border: 1px solid #d3deeb;
+    border-radius: 9px;
+    background: #fff;
+    cursor: pointer;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .menu-toggle span {
+    display: block;
+    width: 19px;
+    height: 2px;
+    border-radius: 2px;
+    background: var(--vk-header-ink);
+    transition: transform .2s ease, opacity .2s ease;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .menu-toggle[aria-expanded="true"] span:first-child {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .menu-toggle[aria-expanded="true"] span:nth-child(2) {
+    opacity: 0;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .menu-toggle[aria-expanded="true"] span:last-child {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .home-header-quote-wrap {
+    margin-inline-start: 12px;
+    padding-inline-start: 13px;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .home-header-quote-wrap::before {
+    height: 25px;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .primary-nav {
+    position: absolute;
+    top: calc(100% + 5px);
+    right: 0;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 3px;
+    width: auto;
+    max-height: calc(100dvh - 110px);
+    margin: 0;
+    padding: 10px;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    border: 1px solid var(--vk-header-rule);
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 12px 28px rgba(18, 47, 84, .12);
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .primary-nav.open {
+    display: flex;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .primary-nav > .nav-link,
+  :is(.homepage, .corporate-page, .inner-page) .site-header .dropdown-trigger {
+    justify-content: flex-start;
+    width: 100%;
+    min-height: 43px;
+    padding-inline: 13px;
+    font-size: var(--vk-button-size);
+    white-space: normal;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .primary-nav > .nav-link.active {
+    min-height: 40px;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .dropdown-trigger {
+    justify-content: space-between;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .nav-dropdown .dropdown-menu {
+    position: static;
+    display: none;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 7px;
+    width: 100%;
+    max-height: none;
+    margin-top: 4px;
+    padding: 9px;
+    overflow: visible;
+    border: 0;
+    border-radius: 9px;
+    background: #f3f7fd;
+    box-shadow: none;
+    transform: none;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .nav-dropdown.open .dropdown-menu {
+    display: grid;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .dropdown-menu .dropdown-section a {
+    min-height: 33px;
+    padding: 7px 10px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1000px) {
+  :is(.homepage, .corporate-page, .inner-page) .topbar .topbar-location {
+    display: none;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .topbar .topbar-links {
+    gap: 19px;
+  }
+}
+
+@media (max-width: 640px) {
+  :is(.homepage, .corporate-page, .inner-page) .topbar .topbar-message {
+    display: none;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .topbar .topbar-links {
+    justify-content: space-between;
+    width: 100%;
+    gap: 16px;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .topbar .topbar-email-full {
+    display: none;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .topbar .topbar-email-short {
+    display: inline;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .brand {
+    flex-basis: clamp(138px, 44vw, 178px);
+    width: clamp(138px, 44vw, 178px);
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .menu-toggle {
+    flex-basis: 36px;
+    width: 36px;
+    height: 38px;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .home-header-quote-wrap {
+    margin-inline-start: 7px;
+    padding-inline-start: 0;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .home-header-quote-wrap::before {
+    display: none;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .home-header-quote {
+    gap: 6px;
+    width: 118px;
+    min-height: 40px;
+    padding: 5px 8px;
+    font-size: 12px;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .home-header-quote > svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media (max-width: 360px) {
+  :is(.homepage, .corporate-page, .inner-page) .site-header .brand {
+    flex-basis: 136px;
+    width: 136px;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .menu-toggle {
+    flex-basis: 34px;
+    width: 34px;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .home-header-quote {
+    width: 88px;
+    min-height: 40px;
+    gap: 5px;
+    padding: 5px 7px;
+    font-size: 11.5px;
+  }
+
+  :is(.homepage, .corporate-page, .inner-page) .site-header .home-header-quote span {
+    max-width: 4.2em;
+    line-height: 1.15;
+    white-space: normal;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :is(.homepage, .corporate-page, .inner-page) .site-header :is(a, button, .dropdown-menu),
+  :is(.homepage, .corporate-page, .inner-page) .topbar a {
+    transition: none;
+  }
+}
