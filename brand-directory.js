@@ -10,41 +10,8 @@
   const normalize = (value) => String(value || '').toLocaleLowerCase('tr-TR')
     .normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ı/g, 'i');
 
-  // Approved editorial priorities for the existing cards in each activity area.
-  const priorityBySection = {
-    'marka-baski-sarf': [
-      'Canon', 'HP', 'Epson', 'Brother', 'Konica Minolta', 'Kyocera', 'Ricoh', 'Xerox', 'Lexmark',
-      'Pantum',
-    ],
-    'marka-bilgisayar-mobil': [
-      'Lenovo', 'HP', 'Dell', 'Acer', 'Asus', 'LG', 'Samsung', 'AMD', 'Intel', 'NVIDIA',
-    ],
-    'marka-ag-haberlesme': [
-      'Cisco', 'Aruba', 'Fortinet', 'Huawei', 'Ubiquiti', 'Juniper Networks', 'Extreme Networks',
-      'Eaton', 'Tescom', 'Yealink',
-    ],
-    'marka-yazilim-veri': [
-      'HPE', 'Microsoft', 'Veeam', 'Dell', 'Lenovo', 'VMware', 'Adobe', 'Huawei',
-    ],
-    'marka-ofis-sunum': [
-      'Epson', 'ViewSonic', 'BenQ', 'Logitech',
-    ],
-    'marka-guvenlik-satis': [
-      'Hikvision', 'Zebra', 'Ingenico', 'Dahua', 'Honeywell', 'Datalogic', 'Paradox', 'Verifone',
-      'Profilo',
-    ],
-  };
-
   const groups = Array.from(directory.querySelectorAll('[data-brand-section]')).map((section) => {
     const cards = Array.from(section.querySelectorAll('[data-brand-tile]'));
-    const priority = priorityBySection[section.id];
-    if (priority?.length) {
-      const rank = new Map(priority.map((name, index) => [name, index]));
-      const position = card => rank.get(card.dataset.brandName) ?? rank.size;
-      // Keep the original relative order for cards without an assigned priority.
-      cards.sort((first, second) => position(first) - position(second));
-      section.querySelector('[data-brand-grid]').append(...cards);
-    }
     const pager = section.querySelector('[data-brand-pagination]');
     return {
       section,
@@ -62,35 +29,6 @@
   const clear = directory.querySelector('[data-brand-clear]');
   const status = directory.querySelector('[data-brand-status]');
   const showcase = directory.querySelector('[data-brand-showcase]');
-  const showcaseGrid = showcase.querySelector('[data-brand-showcase-grid]');
-
-  // Read the examples from the same cards used by the directory and its search.
-  groups.forEach(({ section, cards }) => {
-    const examples = cards.slice(0, 3);
-    const link = document.createElement('a');
-    link.className = 'brands-showcase-card';
-    link.href = '#' + section.id;
-
-    const title = document.createElement('strong');
-    title.className = 'brands-showcase-title';
-    title.textContent = section.dataset.brandName;
-    const arrow = document.createElement('span');
-    arrow.setAttribute('aria-hidden', 'true');
-    arrow.textContent = '→';
-    const icon = section.querySelector('.theme-activity-icon');
-    if (icon) title.prepend(icon.cloneNode(true));
-    title.append(arrow);
-
-    const names = document.createElement('span');
-    names.className = 'brands-showcase-names';
-    examples.forEach(card => {
-      const name = document.createElement('span');
-      name.textContent = card.dataset.brandName;
-      names.append(name);
-    });
-    link.append(title, names);
-    showcaseGrid.append(link);
-  });
 
   function setupSearchExample() {
     const example = directory.querySelector('[data-brand-search-example]');

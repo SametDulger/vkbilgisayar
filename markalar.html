@@ -34,6 +34,12 @@
 <link href="ic-sayfalar.css?v=20261113-ekran-uyumu" rel="stylesheet"/>
 <script defer="" src="script.min.js?v=20261107-r01"></script>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://vkbilgisayar.com/#organization","name":"VK Bilgisayar","url":"https://vkbilgisayar.com/","logo":{"@type":"ImageObject","url":"https://vkbilgisayar.com/assets/vk-header-logo.png"},"email":"info@vkbilgisayar.com","telephone":"+90-533-890-65-05","address":{"@type":"PostalAddress","addressLocality":"İstanbul","addressCountry":"TR"},"contactPoint":{"@type":"ContactPoint","contactType":"sales","telephone":"+90-533-890-65-05","email":"info@vkbilgisayar.com","availableLanguage":"Turkish"}},{"@type":"WebSite","@id":"https://vkbilgisayar.com/#website","url":"https://vkbilgisayar.com/","name":"VK Bilgisayar","inLanguage":"tr-TR","publisher":{"@id":"https://vkbilgisayar.com/#organization"}},{"@type":"CollectionPage","@id":"https://vkbilgisayar.com/markalar.html#webpage","url":"https://vkbilgisayar.com/markalar.html","name":"Markalar ve Ürün Grupları | VK Bilgisayar","description":"Baskı, bilgisayar, ağ, yazılım, ofis ve güvenlik ürün gruplarında yer alan markaları keşfedin ve kategoriye göre filtreleyin.","inLanguage":"tr-TR","isPartOf":{"@id":"https://vkbilgisayar.com/#website"},"about":{"@id":"https://vkbilgisayar.com/#organization"},"breadcrumb":{"@id":"https://vkbilgisayar.com/markalar.html#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://vkbilgisayar.com/markalar.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Ana sayfa","item":"https://vkbilgisayar.com/"},{"@type":"ListItem","position":2,"name":"Markalar","item":"https://vkbilgisayar.com/markalar.html"}]}]}</script>
+<noscript>
+<style>
+  .brands-page [data-brand-grid] > [data-brand-tile][hidden] { display: flex !important; }
+  .brands-page .brand-category-section [data-brand-pagination] { display: none; }
+</style>
+</noscript>
 </head>
 <body class="inner-page">
 <a class="skip-link" href="#main-content">İçeriğe geç</a>
@@ -67,7 +73,7 @@
 <a href="guvenlik-sistemleri.html">Güvenlik Kamera Sistemleri</a><a href="gecis-kontrol-alarm.html">Geçiş Kontrol ve Alarm Sistemleri</a><a href="barkod-pos-urunleri.html">Barkod ve POS Ürünleri</a><a href="yazarkasa-perakende-urunleri.html">Yazarkasa ve Perakende Ürünleri</a></div>
 <a class="dropdown-all" href="urun-gruplari.html">Tüm ürün gruplarını incele</a>
 </div></div>
-<a class="nav-link" data-nav="brands" href="markalar.html">Markalar</a>
+<a class="nav-link active" data-nav="brands" href="markalar.html" aria-current="page">Markalar</a>
 <a class="nav-link" data-nav="guide" href="rehber.html">Rehberler</a>
 <a class="nav-link" data-nav="supply" href="kurumsal-toplu-tedarik.html">Kurumsal tedarik</a>
 <a class="nav-link" data-nav="contact" href="iletisim.html">İletişim</a>
@@ -94,11 +100,36 @@
     </div>
   </div>
 </section>
-<section class="brands-showcase" aria-labelledby="brands-showcase-title" data-brand-showcase hidden>
+<section class="brands-showcase" aria-labelledby="brands-showcase-title" data-brand-showcase>
 <div class="container">
 <h2 id="brands-showcase-title">Öne çıkan markalar</h2>
 <p>Her faaliyet alanından üç örnek. Bir alan seçerek tam marka listesine geçin.</p>
-<div class="brands-showcase-grid" data-brand-showcase-grid></div>
+<div class="brands-showcase-grid" data-brand-showcase-grid>
+  <a class="brands-showcase-card" href="#marka-baski-sarf">
+    <strong class="brands-showcase-title"><svg class="theme-activity-icon" aria-hidden="true" focusable="false" viewBox="0 0 32 32"> <path d="M8 11V3h16v8M8 23H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h24a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-4M8 18h16v11H8zM24 15h1"></path> </svg>Baskı ve Doküman Teknolojileri<span aria-hidden="true">→</span></strong>
+    <span class="brands-showcase-names"><span>Canon</span><span>HP</span><span>Epson</span></span>
+  </a>
+  <a class="brands-showcase-card" href="#marka-bilgisayar-mobil">
+    <strong class="brands-showcase-title"><svg class="theme-activity-icon" aria-hidden="true" focusable="false" viewBox="0 0 32 32"> <rect x="2" y="4" width="28" height="19" rx="1"></rect> <path d="M16 23v5M9 28h14"></path> </svg>Bilgisayar ve Çalışma Teknolojileri<span aria-hidden="true">→</span></strong>
+    <span class="brands-showcase-names"><span>Lenovo</span><span>HP</span><span>Dell</span></span>
+  </a>
+  <a class="brands-showcase-card" href="#marka-ag-haberlesme">
+    <strong class="brands-showcase-title"><svg class="theme-activity-icon" aria-hidden="true" focusable="false" viewBox="0 0 32 32"> <circle cx="16" cy="6" r="4"></circle> <circle cx="5.5" cy="24" r="4"></circle> <circle cx="26.5" cy="24" r="4"></circle> <path d="M16 10v3M16 13l-8 8m8-8 8 8"></path> </svg>Ağ ve İletişim Çözümleri<span aria-hidden="true">→</span></strong>
+    <span class="brands-showcase-names"><span>Cisco</span><span>Aruba</span><span>Fortinet</span></span>
+  </a>
+  <a class="brands-showcase-card" href="#marka-yazilim-veri">
+    <strong class="brands-showcase-title"><svg class="theme-activity-icon" aria-hidden="true" focusable="false" viewBox="0 0 32 32"> <ellipse cx="16" cy="7" rx="12.5" ry="5"></ellipse> <path d="M3.5 7v18c0 2.8 5.6 5 12.5 5s12.5-2.2 12.5-5V7M3.5 16c0 2.8 5.6 5 12.5 5s12.5-2.2 12.5-5"></path> </svg>Yazılım ve Veri Altyapısı<span aria-hidden="true">→</span></strong>
+    <span class="brands-showcase-names"><span>HPE</span><span>Microsoft</span><span>Veeam</span></span>
+  </a>
+  <a class="brands-showcase-card" href="#marka-ofis-sunum">
+    <strong class="brands-showcase-title"><svg class="theme-activity-icon" aria-hidden="true" focusable="false" viewBox="0 0 32 32"> <rect x="2" y="4" width="28" height="19" rx="1"></rect> <path d="M16 23v5M10 28h12"></path> </svg>Ofis ve Görüntüleme Çözümleri<span aria-hidden="true">→</span></strong>
+    <span class="brands-showcase-names"><span>Epson</span><span>ViewSonic</span><span>BenQ</span></span>
+  </a>
+  <a class="brands-showcase-card" href="#marka-guvenlik-satis">
+    <strong class="brands-showcase-title"><svg class="theme-activity-icon" aria-hidden="true" focusable="false" viewBox="0 0 32 32"> <path d="M16 2.5C20 6 23.5 7 28 8v7c0 7-5 12.2-12 15C9 27.2 4 22 4 15V8c4.5-1 8-2 12-5.5Z"></path> </svg>Güvenlik ve Satış Noktası Sistemleri<span aria-hidden="true">→</span></strong>
+    <span class="brands-showcase-names"><span>Hikvision</span><span>Zebra</span><span>Ingenico</span></span>
+  </a>
+</div>
 </div>
 </section>
 <section class="content-section section-space brand-directory-section" id="brands-results" aria-labelledby="brands-results-title">
@@ -113,176 +144,183 @@
 <section id="marka-baski-sarf" class="brand-category-section" data-brand-name="Baskı ve Doküman Teknolojileri" data-brand-section="">
 <header class="brand-category-heading"><h2><svg class="theme-activity-icon" aria-hidden="true" focusable="false" viewBox="0 0 32 32"> <path d="M8 11V3h16v8M8 23H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h24a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-4M8 18h16v11H8zM24 15h1"/> </svg><span>Baskı ve Doküman Teknolojileri</span></h2><a href="urun-gruplari.html#baski-sarf">İlgili ürünleri incele <span aria-hidden="true">→</span></a></header>
 <div aria-live="polite" class="brand-tile-grid" data-brand-grid="">
+<article aria-label="Canon" class="brand-tile" data-brand-name="Canon" data-brand-tile=""><strong>Canon</strong></article>
+<article aria-label="HP" class="brand-tile" data-brand-name="HP" data-brand-tile=""><strong>HP</strong></article>
+<article aria-label="Epson" class="brand-tile" data-brand-name="Epson" data-brand-tile=""><strong>Epson</strong></article>
+<article aria-label="Brother" class="brand-tile" data-brand-name="Brother" data-brand-tile=""><strong>Brother</strong></article>
+<article aria-label="Konica Minolta" class="brand-tile" data-brand-name="Konica Minolta" data-brand-tile=""><strong>Konica Minolta</strong></article>
+<article aria-label="Kyocera" class="brand-tile" data-brand-name="Kyocera" data-brand-tile=""><strong>Kyocera</strong></article>
+<article aria-label="Ricoh" class="brand-tile" data-brand-name="Ricoh" data-brand-tile=""><strong>Ricoh</strong></article>
+<article aria-label="Xerox" class="brand-tile" data-brand-name="Xerox" data-brand-tile=""><strong>Xerox</strong></article>
+<article aria-label="Lexmark" class="brand-tile" data-brand-name="Lexmark" data-brand-tile=""><strong>Lexmark</strong></article>
+<article aria-label="Pantum" class="brand-tile" data-brand-name="Pantum" data-brand-tile=""><strong>Pantum</strong></article>
 <article aria-label="Activejet" class="brand-tile" data-brand-name="Activejet" data-brand-tile=""><strong>Activejet</strong></article>
 <article aria-label="Armor" class="brand-tile" data-brand-name="Armor" data-brand-tile=""><strong>Armor</strong></article>
 <article aria-label="Avery Dennison" class="brand-tile" data-brand-name="Avery Dennison" data-brand-tile=""><strong>Avery Dennison</strong></article>
-<article aria-label="Brother" class="brand-tile" data-brand-name="Brother" data-brand-tile=""><strong>Brother</strong></article>
-<article aria-label="Canon" class="brand-tile" data-brand-name="Canon" data-brand-tile=""><strong>Canon</strong></article>
 <article aria-label="Double A" class="brand-tile" data-brand-name="Double A" data-brand-tile=""><strong>Double A</strong></article>
-<article aria-label="Epson" class="brand-tile" data-brand-name="Epson" data-brand-tile=""><strong>Epson</strong></article>
 <article aria-label="Fujifilm Business Innovation" class="brand-tile" data-brand-name="Fujifilm Business Innovation" data-brand-tile=""><strong>Fujifilm Business Innovation</strong></article>
 <article aria-label="HERMA" class="brand-tile" data-brand-name="HERMA" data-brand-tile=""><strong>HERMA</strong></article>
-<article aria-label="HP" class="brand-tile" data-brand-name="HP" data-brand-tile=""><strong>HP</strong></article>
-<article aria-label="Konica Minolta" class="brand-tile" data-brand-name="Konica Minolta" data-brand-tile=""><strong>Konica Minolta</strong></article>
-<article aria-label="Kyocera" class="brand-tile" data-brand-name="Kyocera" data-brand-tile=""><strong>Kyocera</strong></article>
-<article aria-label="Lexmark" class="brand-tile" data-brand-name="Lexmark" data-brand-tile=""><strong>Lexmark</strong></article>
 <article aria-label="Mondi" class="brand-tile" data-brand-name="Mondi" data-brand-tile=""><strong>Mondi</strong></article>
 <article aria-label="Navigator" class="brand-tile" data-brand-name="Navigator" data-brand-tile=""><strong>Navigator</strong></article>
-<article aria-label="OKI" class="brand-tile" data-brand-name="OKI" data-brand-tile=""><strong>OKI</strong></article>
-<article aria-label="Pantum" class="brand-tile" data-brand-name="Pantum" data-brand-tile=""><strong>Pantum</strong></article>
-<article aria-label="Peach" class="brand-tile" data-brand-name="Peach" data-brand-tile=""><strong>Peach</strong></article>
-<article aria-label="Ricoh" class="brand-tile" data-brand-name="Ricoh" data-brand-tile=""><strong>Ricoh</strong></article>
-<article aria-label="RISO" class="brand-tile" data-brand-name="RISO" data-brand-tile=""><strong>RISO</strong></article>
-<article aria-label="Sharp" class="brand-tile" data-brand-name="Sharp" data-brand-tile=""><strong>Sharp</strong></article>
-<article aria-label="Sindoh" class="brand-tile" data-brand-name="Sindoh" data-brand-tile=""><strong>Sindoh</strong></article>
-<article aria-label="Toshiba Tec" class="brand-tile" data-brand-name="Toshiba Tec" data-brand-tile=""><strong>Toshiba Tec</strong></article>
-<article aria-label="Xerox" class="brand-tile" data-brand-name="Xerox" data-brand-tile=""><strong>Xerox</strong></article>
-<article aria-label="Zweckform" class="brand-tile" data-brand-name="Zweckform" data-brand-tile=""><strong>Zweckform</strong></article>
+<article aria-label="OKI" class="brand-tile" data-brand-name="OKI" data-brand-tile="" hidden><strong>OKI</strong></article>
+<article aria-label="Peach" class="brand-tile" data-brand-name="Peach" data-brand-tile="" hidden><strong>Peach</strong></article>
+<article aria-label="RISO" class="brand-tile" data-brand-name="RISO" data-brand-tile="" hidden><strong>RISO</strong></article>
+<article aria-label="Sharp" class="brand-tile" data-brand-name="Sharp" data-brand-tile="" hidden><strong>Sharp</strong></article>
+<article aria-label="Sindoh" class="brand-tile" data-brand-name="Sindoh" data-brand-tile="" hidden><strong>Sindoh</strong></article>
+<article aria-label="Toshiba Tec" class="brand-tile" data-brand-name="Toshiba Tec" data-brand-tile="" hidden><strong>Toshiba Tec</strong></article>
+<article aria-label="Zweckform" class="brand-tile" data-brand-name="Zweckform" data-brand-tile="" hidden><strong>Zweckform</strong></article>
 </div>
-<nav aria-label="Baskı ve Doküman Teknolojileri marka sayfaları" class="brand-pagination" data-brand-pagination="" hidden="">
+<nav aria-label="Baskı ve Doküman Teknolojileri marka sayfaları" class="brand-pagination" data-brand-pagination="">
 <button class="brand-page-button" data-brand-prev="" disabled="" type="button">Önceki</button>
-<span aria-live="polite" class="brand-page-status" data-brand-page="">Sayfa 1 / 1</span>
-<button class="brand-page-button" data-brand-next="" disabled="" type="button">Sonraki</button>
+<span aria-live="polite" class="brand-page-status" data-brand-page="">Sayfa 1 / 2</span>
+<button class="brand-page-button" data-brand-next="" type="button">Sonraki</button>
 </nav>
 </section>
 <section id="marka-bilgisayar-mobil" class="brand-category-section" data-brand-name="Bilgisayar ve Çalışma Teknolojileri" data-brand-section="">
 <header class="brand-category-heading"><h2><svg class="theme-activity-icon" aria-hidden="true" focusable="false" viewBox="0 0 32 32"> <rect x="2" y="4" width="28" height="19" rx="1"/> <path d="M16 23v5M9 28h14"/> </svg><span>Bilgisayar ve Çalışma Teknolojileri</span></h2><a href="urun-gruplari.html#bilgisayar-mobil">İlgili ürünleri incele <span aria-hidden="true">→</span></a></header>
 <div aria-live="polite" class="brand-tile-grid" data-brand-grid="">
-<article aria-label="3M" class="brand-tile" data-brand-name="3M" data-brand-tile=""><strong>3M</strong></article>
+<article aria-label="Lenovo" class="brand-tile" data-brand-name="Lenovo" data-brand-tile=""><strong>Lenovo</strong></article>
+<article aria-label="HP" class="brand-tile" data-brand-name="HP" data-brand-tile=""><strong>HP</strong></article>
+<article aria-label="Dell" class="brand-tile" data-brand-name="Dell" data-brand-tile=""><strong>Dell</strong></article>
 <article aria-label="Acer" class="brand-tile" data-brand-name="Acer" data-brand-tile=""><strong>Acer</strong></article>
-<article aria-label="ADATA" class="brand-tile" data-brand-name="ADATA" data-brand-tile=""><strong>ADATA</strong></article>
+<article aria-label="Asus" class="brand-tile" data-brand-name="Asus" data-brand-tile=""><strong>Asus</strong></article>
+<article aria-label="LG" class="brand-tile" data-brand-name="LG" data-brand-tile=""><strong>LG</strong></article>
+<article aria-label="Samsung" class="brand-tile" data-brand-name="Samsung" data-brand-tile=""><strong>Samsung</strong></article>
 <article aria-label="AMD" class="brand-tile" data-brand-name="AMD" data-brand-tile=""><strong>AMD</strong></article>
+<article aria-label="Intel" class="brand-tile" data-brand-name="Intel" data-brand-tile=""><strong>Intel</strong></article>
+<article aria-label="NVIDIA" class="brand-tile" data-brand-name="NVIDIA" data-brand-tile=""><strong>NVIDIA</strong></article>
+<article aria-label="3M" class="brand-tile" data-brand-name="3M" data-brand-tile=""><strong>3M</strong></article>
+<article aria-label="ADATA" class="brand-tile" data-brand-name="ADATA" data-brand-tile=""><strong>ADATA</strong></article>
 <article aria-label="AOC" class="brand-tile" data-brand-name="AOC" data-brand-tile=""><strong>AOC</strong></article>
 <article aria-label="Apacer" class="brand-tile" data-brand-name="Apacer" data-brand-tile=""><strong>Apacer</strong></article>
 <article aria-label="Apple" class="brand-tile" data-brand-name="Apple" data-brand-tile=""><strong>Apple</strong></article>
 <article aria-label="ASRock" class="brand-tile" data-brand-name="ASRock" data-brand-tile=""><strong>ASRock</strong></article>
-<article aria-label="Asus" class="brand-tile" data-brand-name="Asus" data-brand-tile=""><strong>Asus</strong></article>
 <article aria-label="be quiet!" class="brand-tile" data-brand-name="be quiet!" data-brand-tile=""><strong>be quiet!</strong></article>
 <article aria-label="Casper" class="brand-tile" data-brand-name="Casper" data-brand-tile=""><strong>Casper</strong></article>
-<article aria-label="Cooler Master" class="brand-tile" data-brand-name="Cooler Master" data-brand-tile=""><strong>Cooler Master</strong></article>
-<article aria-label="Corsair" class="brand-tile" data-brand-name="Corsair" data-brand-tile=""><strong>Corsair</strong></article>
-<article aria-label="Dell" class="brand-tile" data-brand-name="Dell" data-brand-tile=""><strong>Dell</strong></article>
-<article aria-label="Dynabook" class="brand-tile" data-brand-name="Dynabook" data-brand-tile=""><strong>Dynabook</strong></article>
-<article aria-label="Ergotron" class="brand-tile" data-brand-name="Ergotron" data-brand-tile=""><strong>Ergotron</strong></article>
-<article aria-label="Everest" class="brand-tile" data-brand-name="Everest" data-brand-tile=""><strong>Everest</strong></article>
-<article aria-label="Fellowes" class="brand-tile" data-brand-name="Fellowes" data-brand-tile=""><strong>Fellowes</strong></article>
-<article aria-label="FSP" class="brand-tile" data-brand-name="FSP" data-brand-tile=""><strong>FSP</strong></article>
-<article aria-label="Fujitsu" class="brand-tile" data-brand-name="Fujitsu" data-brand-tile=""><strong>Fujitsu</strong></article>
-<article aria-label="Gigabyte" class="brand-tile" data-brand-name="Gigabyte" data-brand-tile=""><strong>Gigabyte</strong></article>
-<article aria-label="Honor" class="brand-tile" data-brand-name="Honor" data-brand-tile=""><strong>Honor</strong></article>
-<article aria-label="HP" class="brand-tile" data-brand-name="HP" data-brand-tile=""><strong>HP</strong></article>
-<article aria-label="Huawei" class="brand-tile" data-brand-name="Huawei" data-brand-tile=""><strong>Huawei</strong></article>
-<article aria-label="Humanscale" class="brand-tile" data-brand-name="Humanscale" data-brand-tile=""><strong>Humanscale</strong></article>
-<article aria-label="Intel" class="brand-tile" data-brand-name="Intel" data-brand-tile=""><strong>Intel</strong></article>
-<article aria-label="Kensington" class="brand-tile" data-brand-name="Kensington" data-brand-tile=""><strong>Kensington</strong></article>
-<article aria-label="Lenovo" class="brand-tile" data-brand-name="Lenovo" data-brand-tile=""><strong>Lenovo</strong></article>
-<article aria-label="LG" class="brand-tile" data-brand-name="LG" data-brand-tile=""><strong>LG</strong></article>
-<article aria-label="Lian Li" class="brand-tile" data-brand-name="Lian Li" data-brand-tile=""><strong>Lian Li</strong></article>
-<article aria-label="Logitech" class="brand-tile" data-brand-name="Logitech" data-brand-tile=""><strong>Logitech</strong></article>
-<article aria-label="Microsoft" class="brand-tile" data-brand-name="Microsoft" data-brand-tile=""><strong>Microsoft</strong></article>
-<article aria-label="Monster" class="brand-tile" data-brand-name="Monster" data-brand-tile=""><strong>Monster</strong></article>
-<article aria-label="Motorola" class="brand-tile" data-brand-name="Motorola" data-brand-tile=""><strong>Motorola</strong></article>
-<article aria-label="MSI" class="brand-tile" data-brand-name="MSI" data-brand-tile=""><strong>MSI</strong></article>
-<article aria-label="Noctua" class="brand-tile" data-brand-name="Noctua" data-brand-tile=""><strong>Noctua</strong></article>
-<article aria-label="NVIDIA" class="brand-tile" data-brand-name="NVIDIA" data-brand-tile=""><strong>NVIDIA</strong></article>
-<article aria-label="OnePlus" class="brand-tile" data-brand-name="OnePlus" data-brand-tile=""><strong>OnePlus</strong></article>
-<article aria-label="OPPO" class="brand-tile" data-brand-name="OPPO" data-brand-tile=""><strong>OPPO</strong></article>
-<article aria-label="Panasonic" class="brand-tile" data-brand-name="Panasonic" data-brand-tile=""><strong>Panasonic</strong></article>
-<article aria-label="Philips" class="brand-tile" data-brand-name="Philips" data-brand-tile=""><strong>Philips</strong></article>
-<article aria-label="PNY" class="brand-tile" data-brand-name="PNY" data-brand-tile=""><strong>PNY</strong></article>
-<article aria-label="Rapoo" class="brand-tile" data-brand-name="Rapoo" data-brand-tile=""><strong>Rapoo</strong></article>
-<article aria-label="Razer" class="brand-tile" data-brand-name="Razer" data-brand-tile=""><strong>Razer</strong></article>
-<article aria-label="Realme" class="brand-tile" data-brand-name="Realme" data-brand-tile=""><strong>Realme</strong></article>
-<article aria-label="Samsung" class="brand-tile" data-brand-name="Samsung" data-brand-tile=""><strong>Samsung</strong></article>
-<article aria-label="Sapphire" class="brand-tile" data-brand-name="Sapphire" data-brand-tile=""><strong>Sapphire</strong></article>
-<article aria-label="Seasonic" class="brand-tile" data-brand-name="Seasonic" data-brand-tile=""><strong>Seasonic</strong></article>
-<article aria-label="Targus" class="brand-tile" data-brand-name="Targus" data-brand-tile=""><strong>Targus</strong></article>
-<article aria-label="TCL" class="brand-tile" data-brand-name="TCL" data-brand-tile=""><strong>TCL</strong></article>
-<article aria-label="Thermaltake" class="brand-tile" data-brand-name="Thermaltake" data-brand-tile=""><strong>Thermaltake</strong></article>
-<article aria-label="ViewSonic" class="brand-tile" data-brand-name="ViewSonic" data-brand-tile=""><strong>ViewSonic</strong></article>
-<article aria-label="Xiaomi" class="brand-tile" data-brand-name="Xiaomi" data-brand-tile=""><strong>Xiaomi</strong></article>
-<article aria-label="Zebra" class="brand-tile" data-brand-name="Zebra" data-brand-tile=""><strong>Zebra</strong></article>
-<article aria-label="Zotac" class="brand-tile" data-brand-name="Zotac" data-brand-tile=""><strong>Zotac</strong></article>
+<article aria-label="Cooler Master" class="brand-tile" data-brand-name="Cooler Master" data-brand-tile="" hidden><strong>Cooler Master</strong></article>
+<article aria-label="Corsair" class="brand-tile" data-brand-name="Corsair" data-brand-tile="" hidden><strong>Corsair</strong></article>
+<article aria-label="Dynabook" class="brand-tile" data-brand-name="Dynabook" data-brand-tile="" hidden><strong>Dynabook</strong></article>
+<article aria-label="Ergotron" class="brand-tile" data-brand-name="Ergotron" data-brand-tile="" hidden><strong>Ergotron</strong></article>
+<article aria-label="Everest" class="brand-tile" data-brand-name="Everest" data-brand-tile="" hidden><strong>Everest</strong></article>
+<article aria-label="Fellowes" class="brand-tile" data-brand-name="Fellowes" data-brand-tile="" hidden><strong>Fellowes</strong></article>
+<article aria-label="FSP" class="brand-tile" data-brand-name="FSP" data-brand-tile="" hidden><strong>FSP</strong></article>
+<article aria-label="Fujitsu" class="brand-tile" data-brand-name="Fujitsu" data-brand-tile="" hidden><strong>Fujitsu</strong></article>
+<article aria-label="Gigabyte" class="brand-tile" data-brand-name="Gigabyte" data-brand-tile="" hidden><strong>Gigabyte</strong></article>
+<article aria-label="Honor" class="brand-tile" data-brand-name="Honor" data-brand-tile="" hidden><strong>Honor</strong></article>
+<article aria-label="Huawei" class="brand-tile" data-brand-name="Huawei" data-brand-tile="" hidden><strong>Huawei</strong></article>
+<article aria-label="Humanscale" class="brand-tile" data-brand-name="Humanscale" data-brand-tile="" hidden><strong>Humanscale</strong></article>
+<article aria-label="Kensington" class="brand-tile" data-brand-name="Kensington" data-brand-tile="" hidden><strong>Kensington</strong></article>
+<article aria-label="Lian Li" class="brand-tile" data-brand-name="Lian Li" data-brand-tile="" hidden><strong>Lian Li</strong></article>
+<article aria-label="Logitech" class="brand-tile" data-brand-name="Logitech" data-brand-tile="" hidden><strong>Logitech</strong></article>
+<article aria-label="Microsoft" class="brand-tile" data-brand-name="Microsoft" data-brand-tile="" hidden><strong>Microsoft</strong></article>
+<article aria-label="Monster" class="brand-tile" data-brand-name="Monster" data-brand-tile="" hidden><strong>Monster</strong></article>
+<article aria-label="Motorola" class="brand-tile" data-brand-name="Motorola" data-brand-tile="" hidden><strong>Motorola</strong></article>
+<article aria-label="MSI" class="brand-tile" data-brand-name="MSI" data-brand-tile="" hidden><strong>MSI</strong></article>
+<article aria-label="Noctua" class="brand-tile" data-brand-name="Noctua" data-brand-tile="" hidden><strong>Noctua</strong></article>
+<article aria-label="OnePlus" class="brand-tile" data-brand-name="OnePlus" data-brand-tile="" hidden><strong>OnePlus</strong></article>
+<article aria-label="OPPO" class="brand-tile" data-brand-name="OPPO" data-brand-tile="" hidden><strong>OPPO</strong></article>
+<article aria-label="Panasonic" class="brand-tile" data-brand-name="Panasonic" data-brand-tile="" hidden><strong>Panasonic</strong></article>
+<article aria-label="Philips" class="brand-tile" data-brand-name="Philips" data-brand-tile="" hidden><strong>Philips</strong></article>
+<article aria-label="PNY" class="brand-tile" data-brand-name="PNY" data-brand-tile="" hidden><strong>PNY</strong></article>
+<article aria-label="Rapoo" class="brand-tile" data-brand-name="Rapoo" data-brand-tile="" hidden><strong>Rapoo</strong></article>
+<article aria-label="Razer" class="brand-tile" data-brand-name="Razer" data-brand-tile="" hidden><strong>Razer</strong></article>
+<article aria-label="Realme" class="brand-tile" data-brand-name="Realme" data-brand-tile="" hidden><strong>Realme</strong></article>
+<article aria-label="Sapphire" class="brand-tile" data-brand-name="Sapphire" data-brand-tile="" hidden><strong>Sapphire</strong></article>
+<article aria-label="Seasonic" class="brand-tile" data-brand-name="Seasonic" data-brand-tile="" hidden><strong>Seasonic</strong></article>
+<article aria-label="Targus" class="brand-tile" data-brand-name="Targus" data-brand-tile="" hidden><strong>Targus</strong></article>
+<article aria-label="TCL" class="brand-tile" data-brand-name="TCL" data-brand-tile="" hidden><strong>TCL</strong></article>
+<article aria-label="Thermaltake" class="brand-tile" data-brand-name="Thermaltake" data-brand-tile="" hidden><strong>Thermaltake</strong></article>
+<article aria-label="ViewSonic" class="brand-tile" data-brand-name="ViewSonic" data-brand-tile="" hidden><strong>ViewSonic</strong></article>
+<article aria-label="Xiaomi" class="brand-tile" data-brand-name="Xiaomi" data-brand-tile="" hidden><strong>Xiaomi</strong></article>
+<article aria-label="Zebra" class="brand-tile" data-brand-name="Zebra" data-brand-tile="" hidden><strong>Zebra</strong></article>
+<article aria-label="Zotac" class="brand-tile" data-brand-name="Zotac" data-brand-tile="" hidden><strong>Zotac</strong></article>
 </div>
-<nav aria-label="Bilgisayar ve Çalışma Teknolojileri marka sayfaları" class="brand-pagination" data-brand-pagination="" hidden="">
+<nav aria-label="Bilgisayar ve Çalışma Teknolojileri marka sayfaları" class="brand-pagination" data-brand-pagination="">
 <button class="brand-page-button" data-brand-prev="" disabled="" type="button">Önceki</button>
-<span aria-live="polite" class="brand-page-status" data-brand-page="">Sayfa 1 / 1</span>
-<button class="brand-page-button" data-brand-next="" disabled="" type="button">Sonraki</button>
+<span aria-live="polite" class="brand-page-status" data-brand-page="">Sayfa 1 / 4</span>
+<button class="brand-page-button" data-brand-next="" type="button">Sonraki</button>
 </nav>
 </section>
 <section id="marka-ag-haberlesme" class="brand-category-section" data-brand-name="Ağ ve İletişim Çözümleri" data-brand-section="">
 <header class="brand-category-heading"><h2><svg class="theme-activity-icon" aria-hidden="true" focusable="false" viewBox="0 0 32 32"> <circle cx="16" cy="6" r="4"/> <circle cx="5.5" cy="24" r="4"/> <circle cx="26.5" cy="24" r="4"/> <path d="M16 10v3M16 13l-8 8m8-8 8 8"/> </svg><span>Ağ ve İletişim Çözümleri</span></h2><a href="urun-gruplari.html#ag-haberlesme">İlgili ürünleri incele <span aria-hidden="true">→</span></a></header>
 <div aria-live="polite" class="brand-tile-grid" data-brand-grid="">
+<article aria-label="Cisco" class="brand-tile" data-brand-name="Cisco" data-brand-tile=""><strong>Cisco</strong></article>
+<article aria-label="Aruba" class="brand-tile" data-brand-name="Aruba" data-brand-tile=""><strong>Aruba</strong></article>
+<article aria-label="Fortinet" class="brand-tile" data-brand-name="Fortinet" data-brand-tile=""><strong>Fortinet</strong></article>
+<article aria-label="Huawei" class="brand-tile" data-brand-name="Huawei" data-brand-tile=""><strong>Huawei</strong></article>
+<article aria-label="Ubiquiti" class="brand-tile" data-brand-name="Ubiquiti" data-brand-tile=""><strong>Ubiquiti</strong></article>
+<article aria-label="Juniper Networks" class="brand-tile" data-brand-name="Juniper Networks" data-brand-tile=""><strong>Juniper Networks</strong></article>
+<article aria-label="Extreme Networks" class="brand-tile" data-brand-name="Extreme Networks" data-brand-tile=""><strong>Extreme Networks</strong></article>
+<article aria-label="Eaton" class="brand-tile" data-brand-name="Eaton" data-brand-tile=""><strong>Eaton</strong></article>
+<article aria-label="Tescom" class="brand-tile" data-brand-name="Tescom" data-brand-tile=""><strong>Tescom</strong></article>
+<article aria-label="Yealink" class="brand-tile" data-brand-name="Yealink" data-brand-tile=""><strong>Yealink</strong></article>
 <article aria-label="Akuvox" class="brand-tile" data-brand-name="Akuvox" data-brand-tile=""><strong>Akuvox</strong></article>
 <article aria-label="Alcatel" class="brand-tile" data-brand-name="Alcatel" data-brand-tile=""><strong>Alcatel</strong></article>
 <article aria-label="Anker" class="brand-tile" data-brand-name="Anker" data-brand-tile=""><strong>Anker</strong></article>
 <article aria-label="APC" class="brand-tile" data-brand-name="APC" data-brand-tile=""><strong>APC</strong></article>
-<article aria-label="Aruba" class="brand-tile" data-brand-name="Aruba" data-brand-tile=""><strong>Aruba</strong></article>
 <article aria-label="AudioCodes" class="brand-tile" data-brand-name="AudioCodes" data-brand-tile=""><strong>AudioCodes</strong></article>
 <article aria-label="Avaya" class="brand-tile" data-brand-name="Avaya" data-brand-tile=""><strong>Avaya</strong></article>
 <article aria-label="Baseus" class="brand-tile" data-brand-name="Baseus" data-brand-tile=""><strong>Baseus</strong></article>
 <article aria-label="Belkin" class="brand-tile" data-brand-name="Belkin" data-brand-tile=""><strong>Belkin</strong></article>
-<article aria-label="Cambium Networks" class="brand-tile" data-brand-name="Cambium Networks" data-brand-tile=""><strong>Cambium Networks</strong></article>
-<article aria-label="Cisco" class="brand-tile" data-brand-name="Cisco" data-brand-tile=""><strong>Cisco</strong></article>
-<article aria-label="CyberPower" class="brand-tile" data-brand-name="CyberPower" data-brand-tile=""><strong>CyberPower</strong></article>
-<article aria-label="D-Link" class="brand-tile" data-brand-name="D-Link" data-brand-tile=""><strong>D-Link</strong></article>
-<article aria-label="Digitus" class="brand-tile" data-brand-name="Digitus" data-brand-tile=""><strong>Digitus</strong></article>
-<article aria-label="DrayTek" class="brand-tile" data-brand-name="DrayTek" data-brand-tile=""><strong>DrayTek</strong></article>
-<article aria-label="Eaton" class="brand-tile" data-brand-name="Eaton" data-brand-tile=""><strong>Eaton</strong></article>
-<article aria-label="EnGenius" class="brand-tile" data-brand-name="EnGenius" data-brand-tile=""><strong>EnGenius</strong></article>
-<article aria-label="Extreme Networks" class="brand-tile" data-brand-name="Extreme Networks" data-brand-tile=""><strong>Extreme Networks</strong></article>
-<article aria-label="Fanvil" class="brand-tile" data-brand-name="Fanvil" data-brand-tile=""><strong>Fanvil</strong></article>
-<article aria-label="Fortinet" class="brand-tile" data-brand-name="Fortinet" data-brand-tile=""><strong>Fortinet</strong></article>
-<article aria-label="Gigaset" class="brand-tile" data-brand-name="Gigaset" data-brand-tile=""><strong>Gigaset</strong></article>
-<article aria-label="Grandstream" class="brand-tile" data-brand-name="Grandstream" data-brand-tile=""><strong>Grandstream</strong></article>
-<article aria-label="Hama" class="brand-tile" data-brand-name="Hama" data-brand-tile=""><strong>Hama</strong></article>
-<article aria-label="Huawei" class="brand-tile" data-brand-name="Huawei" data-brand-tile=""><strong>Huawei</strong></article>
-<article aria-label="Inform" class="brand-tile" data-brand-name="Inform" data-brand-tile=""><strong>Inform</strong></article>
-<article aria-label="Juniper Networks" class="brand-tile" data-brand-name="Juniper Networks" data-brand-tile=""><strong>Juniper Networks</strong></article>
-<article aria-label="Legrand" class="brand-tile" data-brand-name="Legrand" data-brand-tile=""><strong>Legrand</strong></article>
-<article aria-label="Lindy" class="brand-tile" data-brand-name="Lindy" data-brand-tile=""><strong>Lindy</strong></article>
-<article aria-label="Makelsan" class="brand-tile" data-brand-name="Makelsan" data-brand-tile=""><strong>Makelsan</strong></article>
-<article aria-label="MikroTik" class="brand-tile" data-brand-name="MikroTik" data-brand-tile=""><strong>MikroTik</strong></article>
-<article aria-label="Mitel" class="brand-tile" data-brand-name="Mitel" data-brand-tile=""><strong>Mitel</strong></article>
-<article aria-label="Mustek" class="brand-tile" data-brand-name="Mustek" data-brand-tile=""><strong>Mustek</strong></article>
-<article aria-label="Netgear" class="brand-tile" data-brand-name="Netgear" data-brand-tile=""><strong>Netgear</strong></article>
-<article aria-label="Nexans" class="brand-tile" data-brand-name="Nexans" data-brand-tile=""><strong>Nexans</strong></article>
-<article aria-label="Panasonic" class="brand-tile" data-brand-name="Panasonic" data-brand-tile=""><strong>Panasonic</strong></article>
-<article aria-label="Panduit" class="brand-tile" data-brand-name="Panduit" data-brand-tile=""><strong>Panduit</strong></article>
-<article aria-label="Poly" class="brand-tile" data-brand-name="Poly" data-brand-tile=""><strong>Poly</strong></article>
-<article aria-label="Powerwalker" class="brand-tile" data-brand-name="Powerwalker" data-brand-tile=""><strong>Powerwalker</strong></article>
-<article aria-label="Riello" class="brand-tile" data-brand-name="Riello" data-brand-tile=""><strong>Riello</strong></article>
-<article aria-label="Ruckus" class="brand-tile" data-brand-name="Ruckus" data-brand-tile=""><strong>Ruckus</strong></article>
-<article aria-label="Ruijie" class="brand-tile" data-brand-name="Ruijie" data-brand-tile=""><strong>Ruijie</strong></article>
-<article aria-label="Snom" class="brand-tile" data-brand-name="Snom" data-brand-tile=""><strong>Snom</strong></article>
-<article aria-label="Socomec" class="brand-tile" data-brand-name="Socomec" data-brand-tile=""><strong>Socomec</strong></article>
-<article aria-label="SonicWall" class="brand-tile" data-brand-name="SonicWall" data-brand-tile=""><strong>SonicWall</strong></article>
-<article aria-label="Sophos" class="brand-tile" data-brand-name="Sophos" data-brand-tile=""><strong>Sophos</strong></article>
-<article aria-label="StarTech.com" class="brand-tile" data-brand-name="StarTech.com" data-brand-tile=""><strong>StarTech.com</strong></article>
-<article aria-label="Techly" class="brand-tile" data-brand-name="Techly" data-brand-tile=""><strong>Techly</strong></article>
-<article aria-label="Tenda" class="brand-tile" data-brand-name="Tenda" data-brand-tile=""><strong>Tenda</strong></article>
-<article aria-label="Tescom" class="brand-tile" data-brand-name="Tescom" data-brand-tile=""><strong>Tescom</strong></article>
-<article aria-label="TP-Link" class="brand-tile" data-brand-name="TP-Link" data-brand-tile=""><strong>TP-Link</strong></article>
-<article aria-label="Tunçmatik" class="brand-tile" data-brand-name="Tunçmatik" data-brand-tile=""><strong>Tunçmatik</strong></article>
-<article aria-label="Ubiquiti" class="brand-tile" data-brand-name="Ubiquiti" data-brand-tile=""><strong>Ubiquiti</strong></article>
-<article aria-label="Ugreen" class="brand-tile" data-brand-name="Ugreen" data-brand-tile=""><strong>Ugreen</strong></article>
-<article aria-label="Vention" class="brand-tile" data-brand-name="Vention" data-brand-tile=""><strong>Vention</strong></article>
-<article aria-label="Vertiv" class="brand-tile" data-brand-name="Vertiv" data-brand-tile=""><strong>Vertiv</strong></article>
-<article aria-label="Yealink" class="brand-tile" data-brand-name="Yealink" data-brand-tile=""><strong>Yealink</strong></article>
-<article aria-label="Yeastar" class="brand-tile" data-brand-name="Yeastar" data-brand-tile=""><strong>Yeastar</strong></article>
-<article aria-label="Zyxel" class="brand-tile" data-brand-name="Zyxel" data-brand-tile=""><strong>Zyxel</strong></article>
+<article aria-label="Cambium Networks" class="brand-tile" data-brand-name="Cambium Networks" data-brand-tile="" hidden><strong>Cambium Networks</strong></article>
+<article aria-label="CyberPower" class="brand-tile" data-brand-name="CyberPower" data-brand-tile="" hidden><strong>CyberPower</strong></article>
+<article aria-label="D-Link" class="brand-tile" data-brand-name="D-Link" data-brand-tile="" hidden><strong>D-Link</strong></article>
+<article aria-label="Digitus" class="brand-tile" data-brand-name="Digitus" data-brand-tile="" hidden><strong>Digitus</strong></article>
+<article aria-label="DrayTek" class="brand-tile" data-brand-name="DrayTek" data-brand-tile="" hidden><strong>DrayTek</strong></article>
+<article aria-label="EnGenius" class="brand-tile" data-brand-name="EnGenius" data-brand-tile="" hidden><strong>EnGenius</strong></article>
+<article aria-label="Fanvil" class="brand-tile" data-brand-name="Fanvil" data-brand-tile="" hidden><strong>Fanvil</strong></article>
+<article aria-label="Gigaset" class="brand-tile" data-brand-name="Gigaset" data-brand-tile="" hidden><strong>Gigaset</strong></article>
+<article aria-label="Grandstream" class="brand-tile" data-brand-name="Grandstream" data-brand-tile="" hidden><strong>Grandstream</strong></article>
+<article aria-label="Hama" class="brand-tile" data-brand-name="Hama" data-brand-tile="" hidden><strong>Hama</strong></article>
+<article aria-label="Inform" class="brand-tile" data-brand-name="Inform" data-brand-tile="" hidden><strong>Inform</strong></article>
+<article aria-label="Legrand" class="brand-tile" data-brand-name="Legrand" data-brand-tile="" hidden><strong>Legrand</strong></article>
+<article aria-label="Lindy" class="brand-tile" data-brand-name="Lindy" data-brand-tile="" hidden><strong>Lindy</strong></article>
+<article aria-label="Makelsan" class="brand-tile" data-brand-name="Makelsan" data-brand-tile="" hidden><strong>Makelsan</strong></article>
+<article aria-label="MikroTik" class="brand-tile" data-brand-name="MikroTik" data-brand-tile="" hidden><strong>MikroTik</strong></article>
+<article aria-label="Mitel" class="brand-tile" data-brand-name="Mitel" data-brand-tile="" hidden><strong>Mitel</strong></article>
+<article aria-label="Mustek" class="brand-tile" data-brand-name="Mustek" data-brand-tile="" hidden><strong>Mustek</strong></article>
+<article aria-label="Netgear" class="brand-tile" data-brand-name="Netgear" data-brand-tile="" hidden><strong>Netgear</strong></article>
+<article aria-label="Nexans" class="brand-tile" data-brand-name="Nexans" data-brand-tile="" hidden><strong>Nexans</strong></article>
+<article aria-label="Panasonic" class="brand-tile" data-brand-name="Panasonic" data-brand-tile="" hidden><strong>Panasonic</strong></article>
+<article aria-label="Panduit" class="brand-tile" data-brand-name="Panduit" data-brand-tile="" hidden><strong>Panduit</strong></article>
+<article aria-label="Poly" class="brand-tile" data-brand-name="Poly" data-brand-tile="" hidden><strong>Poly</strong></article>
+<article aria-label="Powerwalker" class="brand-tile" data-brand-name="Powerwalker" data-brand-tile="" hidden><strong>Powerwalker</strong></article>
+<article aria-label="Riello" class="brand-tile" data-brand-name="Riello" data-brand-tile="" hidden><strong>Riello</strong></article>
+<article aria-label="Ruckus" class="brand-tile" data-brand-name="Ruckus" data-brand-tile="" hidden><strong>Ruckus</strong></article>
+<article aria-label="Ruijie" class="brand-tile" data-brand-name="Ruijie" data-brand-tile="" hidden><strong>Ruijie</strong></article>
+<article aria-label="Snom" class="brand-tile" data-brand-name="Snom" data-brand-tile="" hidden><strong>Snom</strong></article>
+<article aria-label="Socomec" class="brand-tile" data-brand-name="Socomec" data-brand-tile="" hidden><strong>Socomec</strong></article>
+<article aria-label="SonicWall" class="brand-tile" data-brand-name="SonicWall" data-brand-tile="" hidden><strong>SonicWall</strong></article>
+<article aria-label="Sophos" class="brand-tile" data-brand-name="Sophos" data-brand-tile="" hidden><strong>Sophos</strong></article>
+<article aria-label="StarTech.com" class="brand-tile" data-brand-name="StarTech.com" data-brand-tile="" hidden><strong>StarTech.com</strong></article>
+<article aria-label="Techly" class="brand-tile" data-brand-name="Techly" data-brand-tile="" hidden><strong>Techly</strong></article>
+<article aria-label="Tenda" class="brand-tile" data-brand-name="Tenda" data-brand-tile="" hidden><strong>Tenda</strong></article>
+<article aria-label="TP-Link" class="brand-tile" data-brand-name="TP-Link" data-brand-tile="" hidden><strong>TP-Link</strong></article>
+<article aria-label="Tunçmatik" class="brand-tile" data-brand-name="Tunçmatik" data-brand-tile="" hidden><strong>Tunçmatik</strong></article>
+<article aria-label="Ugreen" class="brand-tile" data-brand-name="Ugreen" data-brand-tile="" hidden><strong>Ugreen</strong></article>
+<article aria-label="Vention" class="brand-tile" data-brand-name="Vention" data-brand-tile="" hidden><strong>Vention</strong></article>
+<article aria-label="Vertiv" class="brand-tile" data-brand-name="Vertiv" data-brand-tile="" hidden><strong>Vertiv</strong></article>
+<article aria-label="Yeastar" class="brand-tile" data-brand-name="Yeastar" data-brand-tile="" hidden><strong>Yeastar</strong></article>
+<article aria-label="Zyxel" class="brand-tile" data-brand-name="Zyxel" data-brand-tile="" hidden><strong>Zyxel</strong></article>
 </div>
-<nav aria-label="Ağ ve İletişim Çözümleri marka sayfaları" class="brand-pagination" data-brand-pagination="" hidden="">
+<nav aria-label="Ağ ve İletişim Çözümleri marka sayfaları" class="brand-pagination" data-brand-pagination="">
 <button class="brand-page-button" data-brand-prev="" disabled="" type="button">Önceki</button>
-<span aria-live="polite" class="brand-page-status" data-brand-page="">Sayfa 1 / 1</span>
-<button class="brand-page-button" data-brand-next="" disabled="" type="button">Sonraki</button>
+<span aria-live="polite" class="brand-page-status" data-brand-page="">Sayfa 1 / 4</span>
+<button class="brand-page-button" data-brand-next="" type="button">Sonraki</button>
 </nav>
 </section>
 <section id="marka-yazilim-veri" class="brand-category-section" data-brand-name="Yazılım ve Veri Altyapısı" data-brand-section="">
 <header class="brand-category-heading"><h2><svg class="theme-activity-icon" aria-hidden="true" focusable="false" viewBox="0 0 32 32"> <ellipse cx="16" cy="7" rx="12.5" ry="5"/> <path d="M3.5 7v18c0 2.8 5.6 5 12.5 5s12.5-2.2 12.5-5V7M3.5 16c0 2.8 5.6 5 12.5 5s12.5-2.2 12.5-5"/> </svg><span>Yazılım ve Veri Altyapısı</span></h2><a href="urun-gruplari.html#yazilim-veri">İlgili ürünleri incele <span aria-hidden="true">→</span></a></header>
 <div aria-live="polite" class="brand-tile-grid" data-brand-grid="">
-<article aria-label="Acronis" class="brand-tile" data-brand-name="Acronis" data-brand-tile=""><strong>Acronis</strong></article>
+<article aria-label="HPE" class="brand-tile" data-brand-name="HPE" data-brand-tile=""><strong>HPE</strong></article>
+<article aria-label="Microsoft" class="brand-tile" data-brand-name="Microsoft" data-brand-tile=""><strong>Microsoft</strong></article>
+<article aria-label="Veeam" class="brand-tile" data-brand-name="Veeam" data-brand-tile=""><strong>Veeam</strong></article>
+<article aria-label="Dell" class="brand-tile" data-brand-name="Dell" data-brand-tile=""><strong>Dell</strong></article>
+<article aria-label="Lenovo" class="brand-tile" data-brand-name="Lenovo" data-brand-tile=""><strong>Lenovo</strong></article>
+<article aria-label="VMware" class="brand-tile" data-brand-name="VMware" data-brand-tile=""><strong>VMware</strong></article>
 <article aria-label="Adobe" class="brand-tile" data-brand-name="Adobe" data-brand-tile=""><strong>Adobe</strong></article>
+<article aria-label="Huawei" class="brand-tile" data-brand-name="Huawei" data-brand-tile=""><strong>Huawei</strong></article>
+<article aria-label="Acronis" class="brand-tile" data-brand-name="Acronis" data-brand-tile=""><strong>Acronis</strong></article>
 <article aria-label="Ambir" class="brand-tile" data-brand-name="Ambir" data-brand-tile=""><strong>Ambir</strong></article>
 <article aria-label="ASRock Rack" class="brand-tile" data-brand-name="ASRock Rack" data-brand-tile=""><strong>ASRock Rack</strong></article>
 <article aria-label="Asustor" class="brand-tile" data-brand-name="Asustor" data-brand-tile=""><strong>Asustor</strong></article>
@@ -292,100 +330,102 @@
 <article aria-label="Brother" class="brand-tile" data-brand-name="Brother" data-brand-tile=""><strong>Brother</strong></article>
 <article aria-label="Canon" class="brand-tile" data-brand-name="Canon" data-brand-tile=""><strong>Canon</strong></article>
 <article aria-label="Citrix" class="brand-tile" data-brand-name="Citrix" data-brand-tile=""><strong>Citrix</strong></article>
-<article aria-label="Corel" class="brand-tile" data-brand-name="Corel" data-brand-tile=""><strong>Corel</strong></article>
-<article aria-label="Crucial" class="brand-tile" data-brand-name="Crucial" data-brand-tile=""><strong>Crucial</strong></article>
-<article aria-label="Dell" class="brand-tile" data-brand-name="Dell" data-brand-tile=""><strong>Dell</strong></article>
-<article aria-label="Epson" class="brand-tile" data-brand-name="Epson" data-brand-tile=""><strong>Epson</strong></article>
-<article aria-label="ESET" class="brand-tile" data-brand-name="ESET" data-brand-tile=""><strong>ESET</strong></article>
-<article aria-label="Fujitsu" class="brand-tile" data-brand-name="Fujitsu" data-brand-tile=""><strong>Fujitsu</strong></article>
-<article aria-label="H3C" class="brand-tile" data-brand-name="H3C" data-brand-tile=""><strong>H3C</strong></article>
-<article aria-label="HP" class="brand-tile" data-brand-name="HP" data-brand-tile=""><strong>HP</strong></article>
-<article aria-label="HPE" class="brand-tile" data-brand-name="HPE" data-brand-tile=""><strong>HPE</strong></article>
-<article aria-label="Huawei" class="brand-tile" data-brand-name="Huawei" data-brand-tile=""><strong>Huawei</strong></article>
-<article aria-label="Inspur" class="brand-tile" data-brand-name="Inspur" data-brand-tile=""><strong>Inspur</strong></article>
-<article aria-label="Kaspersky" class="brand-tile" data-brand-name="Kaspersky" data-brand-tile=""><strong>Kaspersky</strong></article>
-<article aria-label="Kingston" class="brand-tile" data-brand-name="Kingston" data-brand-tile=""><strong>Kingston</strong></article>
-<article aria-label="Kioxia" class="brand-tile" data-brand-name="Kioxia" data-brand-tile=""><strong>Kioxia</strong></article>
-<article aria-label="Kodak Alaris" class="brand-tile" data-brand-name="Kodak Alaris" data-brand-tile=""><strong>Kodak Alaris</strong></article>
-<article aria-label="LaCie" class="brand-tile" data-brand-name="LaCie" data-brand-tile=""><strong>LaCie</strong></article>
-<article aria-label="Lenovo" class="brand-tile" data-brand-name="Lenovo" data-brand-tile=""><strong>Lenovo</strong></article>
-<article aria-label="Lexar" class="brand-tile" data-brand-name="Lexar" data-brand-tile=""><strong>Lexar</strong></article>
-<article aria-label="Micron" class="brand-tile" data-brand-name="Micron" data-brand-tile=""><strong>Micron</strong></article>
-<article aria-label="Microsoft" class="brand-tile" data-brand-name="Microsoft" data-brand-tile=""><strong>Microsoft</strong></article>
-<article aria-label="Norton" class="brand-tile" data-brand-name="Norton" data-brand-tile=""><strong>Norton</strong></article>
-<article aria-label="Panasonic" class="brand-tile" data-brand-name="Panasonic" data-brand-tile=""><strong>Panasonic</strong></article>
-<article aria-label="Parallels" class="brand-tile" data-brand-name="Parallels" data-brand-tile=""><strong>Parallels</strong></article>
-<article aria-label="Plustek" class="brand-tile" data-brand-name="Plustek" data-brand-tile=""><strong>Plustek</strong></article>
-<article aria-label="QNAP" class="brand-tile" data-brand-name="QNAP" data-brand-tile=""><strong>QNAP</strong></article>
-<article aria-label="QSAN" class="brand-tile" data-brand-name="QSAN" data-brand-tile=""><strong>QSAN</strong></article>
-<article aria-label="Red Hat" class="brand-tile" data-brand-name="Red Hat" data-brand-tile=""><strong>Red Hat</strong></article>
-<article aria-label="Samsung" class="brand-tile" data-brand-name="Samsung" data-brand-tile=""><strong>Samsung</strong></article>
-<article aria-label="SanDisk" class="brand-tile" data-brand-name="SanDisk" data-brand-tile=""><strong>SanDisk</strong></article>
-<article aria-label="Seagate" class="brand-tile" data-brand-name="Seagate" data-brand-tile=""><strong>Seagate</strong></article>
-<article aria-label="Supermicro" class="brand-tile" data-brand-name="Supermicro" data-brand-tile=""><strong>Supermicro</strong></article>
-<article aria-label="Synology" class="brand-tile" data-brand-name="Synology" data-brand-tile=""><strong>Synology</strong></article>
-<article aria-label="TeamViewer" class="brand-tile" data-brand-name="TeamViewer" data-brand-tile=""><strong>TeamViewer</strong></article>
-<article aria-label="Toshiba" class="brand-tile" data-brand-name="Toshiba" data-brand-tile=""><strong>Toshiba</strong></article>
-<article aria-label="Transcend" class="brand-tile" data-brand-name="Transcend" data-brand-tile=""><strong>Transcend</strong></article>
-<article aria-label="Trend Micro" class="brand-tile" data-brand-name="Trend Micro" data-brand-tile=""><strong>Trend Micro</strong></article>
-<article aria-label="Tyan" class="brand-tile" data-brand-name="Tyan" data-brand-tile=""><strong>Tyan</strong></article>
-<article aria-label="Veeam" class="brand-tile" data-brand-name="Veeam" data-brand-tile=""><strong>Veeam</strong></article>
-<article aria-label="Verbatim" class="brand-tile" data-brand-name="Verbatim" data-brand-tile=""><strong>Verbatim</strong></article>
-<article aria-label="VMware" class="brand-tile" data-brand-name="VMware" data-brand-tile=""><strong>VMware</strong></article>
-<article aria-label="Western Digital" class="brand-tile" data-brand-name="Western Digital" data-brand-tile=""><strong>Western Digital</strong></article>
+<article aria-label="Corel" class="brand-tile" data-brand-name="Corel" data-brand-tile="" hidden><strong>Corel</strong></article>
+<article aria-label="Crucial" class="brand-tile" data-brand-name="Crucial" data-brand-tile="" hidden><strong>Crucial</strong></article>
+<article aria-label="Epson" class="brand-tile" data-brand-name="Epson" data-brand-tile="" hidden><strong>Epson</strong></article>
+<article aria-label="ESET" class="brand-tile" data-brand-name="ESET" data-brand-tile="" hidden><strong>ESET</strong></article>
+<article aria-label="Fujitsu" class="brand-tile" data-brand-name="Fujitsu" data-brand-tile="" hidden><strong>Fujitsu</strong></article>
+<article aria-label="H3C" class="brand-tile" data-brand-name="H3C" data-brand-tile="" hidden><strong>H3C</strong></article>
+<article aria-label="HP" class="brand-tile" data-brand-name="HP" data-brand-tile="" hidden><strong>HP</strong></article>
+<article aria-label="Inspur" class="brand-tile" data-brand-name="Inspur" data-brand-tile="" hidden><strong>Inspur</strong></article>
+<article aria-label="Kaspersky" class="brand-tile" data-brand-name="Kaspersky" data-brand-tile="" hidden><strong>Kaspersky</strong></article>
+<article aria-label="Kingston" class="brand-tile" data-brand-name="Kingston" data-brand-tile="" hidden><strong>Kingston</strong></article>
+<article aria-label="Kioxia" class="brand-tile" data-brand-name="Kioxia" data-brand-tile="" hidden><strong>Kioxia</strong></article>
+<article aria-label="Kodak Alaris" class="brand-tile" data-brand-name="Kodak Alaris" data-brand-tile="" hidden><strong>Kodak Alaris</strong></article>
+<article aria-label="LaCie" class="brand-tile" data-brand-name="LaCie" data-brand-tile="" hidden><strong>LaCie</strong></article>
+<article aria-label="Lexar" class="brand-tile" data-brand-name="Lexar" data-brand-tile="" hidden><strong>Lexar</strong></article>
+<article aria-label="Micron" class="brand-tile" data-brand-name="Micron" data-brand-tile="" hidden><strong>Micron</strong></article>
+<article aria-label="Norton" class="brand-tile" data-brand-name="Norton" data-brand-tile="" hidden><strong>Norton</strong></article>
+<article aria-label="Panasonic" class="brand-tile" data-brand-name="Panasonic" data-brand-tile="" hidden><strong>Panasonic</strong></article>
+<article aria-label="Parallels" class="brand-tile" data-brand-name="Parallels" data-brand-tile="" hidden><strong>Parallels</strong></article>
+<article aria-label="Plustek" class="brand-tile" data-brand-name="Plustek" data-brand-tile="" hidden><strong>Plustek</strong></article>
+<article aria-label="QNAP" class="brand-tile" data-brand-name="QNAP" data-brand-tile="" hidden><strong>QNAP</strong></article>
+<article aria-label="QSAN" class="brand-tile" data-brand-name="QSAN" data-brand-tile="" hidden><strong>QSAN</strong></article>
+<article aria-label="Red Hat" class="brand-tile" data-brand-name="Red Hat" data-brand-tile="" hidden><strong>Red Hat</strong></article>
+<article aria-label="Samsung" class="brand-tile" data-brand-name="Samsung" data-brand-tile="" hidden><strong>Samsung</strong></article>
+<article aria-label="SanDisk" class="brand-tile" data-brand-name="SanDisk" data-brand-tile="" hidden><strong>SanDisk</strong></article>
+<article aria-label="Seagate" class="brand-tile" data-brand-name="Seagate" data-brand-tile="" hidden><strong>Seagate</strong></article>
+<article aria-label="Supermicro" class="brand-tile" data-brand-name="Supermicro" data-brand-tile="" hidden><strong>Supermicro</strong></article>
+<article aria-label="Synology" class="brand-tile" data-brand-name="Synology" data-brand-tile="" hidden><strong>Synology</strong></article>
+<article aria-label="TeamViewer" class="brand-tile" data-brand-name="TeamViewer" data-brand-tile="" hidden><strong>TeamViewer</strong></article>
+<article aria-label="Toshiba" class="brand-tile" data-brand-name="Toshiba" data-brand-tile="" hidden><strong>Toshiba</strong></article>
+<article aria-label="Transcend" class="brand-tile" data-brand-name="Transcend" data-brand-tile="" hidden><strong>Transcend</strong></article>
+<article aria-label="Trend Micro" class="brand-tile" data-brand-name="Trend Micro" data-brand-tile="" hidden><strong>Trend Micro</strong></article>
+<article aria-label="Tyan" class="brand-tile" data-brand-name="Tyan" data-brand-tile="" hidden><strong>Tyan</strong></article>
+<article aria-label="Verbatim" class="brand-tile" data-brand-name="Verbatim" data-brand-tile="" hidden><strong>Verbatim</strong></article>
+<article aria-label="Western Digital" class="brand-tile" data-brand-name="Western Digital" data-brand-tile="" hidden><strong>Western Digital</strong></article>
 </div>
-<nav aria-label="Yazılım ve Veri Altyapısı marka sayfaları" class="brand-pagination" data-brand-pagination="" hidden="">
+<nav aria-label="Yazılım ve Veri Altyapısı marka sayfaları" class="brand-pagination" data-brand-pagination="">
 <button class="brand-page-button" data-brand-prev="" disabled="" type="button">Önceki</button>
-<span aria-live="polite" class="brand-page-status" data-brand-page="">Sayfa 1 / 1</span>
-<button class="brand-page-button" data-brand-next="" disabled="" type="button">Sonraki</button>
+<span aria-live="polite" class="brand-page-status" data-brand-page="">Sayfa 1 / 3</span>
+<button class="brand-page-button" data-brand-next="" type="button">Sonraki</button>
 </nav>
 </section>
 <section id="marka-ofis-sunum" class="brand-category-section" data-brand-name="Ofis ve Görüntüleme Çözümleri" data-brand-section="">
 <header class="brand-category-heading"><h2><svg class="theme-activity-icon" aria-hidden="true" focusable="false" viewBox="0 0 32 32"> <rect x="2" y="4" width="28" height="19" rx="1"/> <path d="M16 23v5M10 28h12"/> </svg><span>Ofis ve Görüntüleme Çözümleri</span></h2><a href="urun-gruplari.html#ofis-sunum">İlgili ürünleri incele <span aria-hidden="true">→</span></a></header>
 <div aria-live="polite" class="brand-tile-grid" data-brand-grid="">
+<article aria-label="Epson" class="brand-tile" data-brand-name="Epson" data-brand-tile=""><strong>Epson</strong></article>
+<article aria-label="ViewSonic" class="brand-tile" data-brand-name="ViewSonic" data-brand-tile=""><strong>ViewSonic</strong></article>
+<article aria-label="BenQ" class="brand-tile" data-brand-name="BenQ" data-brand-tile=""><strong>BenQ</strong></article>
+<article aria-label="Logitech" class="brand-tile" data-brand-name="Logitech" data-brand-tile=""><strong>Logitech</strong></article>
 <article aria-label="AG Neovo" class="brand-tile" data-brand-name="AG Neovo" data-brand-tile=""><strong>AG Neovo</strong></article>
 <article aria-label="AOC" class="brand-tile" data-brand-name="AOC" data-brand-tile=""><strong>AOC</strong></article>
 <article aria-label="Barco" class="brand-tile" data-brand-name="Barco" data-brand-tile=""><strong>Barco</strong></article>
-<article aria-label="BenQ" class="brand-tile" data-brand-name="BenQ" data-brand-tile=""><strong>BenQ</strong></article>
 <article aria-label="Brother" class="brand-tile" data-brand-name="Brother" data-brand-tile=""><strong>Brother</strong></article>
 <article aria-label="Canon" class="brand-tile" data-brand-name="Canon" data-brand-tile=""><strong>Canon</strong></article>
 <article aria-label="Casio" class="brand-tile" data-brand-name="Casio" data-brand-tile=""><strong>Casio</strong></article>
 <article aria-label="Crestron" class="brand-tile" data-brand-name="Crestron" data-brand-tile=""><strong>Crestron</strong></article>
 <article aria-label="Dahle" class="brand-tile" data-brand-name="Dahle" data-brand-tile=""><strong>Dahle</strong></article>
-<article aria-label="Epson" class="brand-tile" data-brand-name="Epson" data-brand-tile=""><strong>Epson</strong></article>
 <article aria-label="Fellowes" class="brand-tile" data-brand-name="Fellowes" data-brand-tile=""><strong>Fellowes</strong></article>
 <article aria-label="GBC" class="brand-tile" data-brand-name="GBC" data-brand-tile=""><strong>GBC</strong></article>
 <article aria-label="Hikvision" class="brand-tile" data-brand-name="Hikvision" data-brand-tile=""><strong>Hikvision</strong></article>
 <article aria-label="HSM" class="brand-tile" data-brand-name="HSM" data-brand-tile=""><strong>HSM</strong></article>
 <article aria-label="IDEAL" class="brand-tile" data-brand-name="IDEAL" data-brand-tile=""><strong>IDEAL</strong></article>
 <article aria-label="iiyama" class="brand-tile" data-brand-name="iiyama" data-brand-tile=""><strong>iiyama</strong></article>
-<article aria-label="Jabra" class="brand-tile" data-brand-name="Jabra" data-brand-tile=""><strong>Jabra</strong></article>
-<article aria-label="Kobra" class="brand-tile" data-brand-name="Kobra" data-brand-tile=""><strong>Kobra</strong></article>
-<article aria-label="Kramer" class="brand-tile" data-brand-name="Kramer" data-brand-tile=""><strong>Kramer</strong></article>
-<article aria-label="Leitz" class="brand-tile" data-brand-name="Leitz" data-brand-tile=""><strong>Leitz</strong></article>
-<article aria-label="LG" class="brand-tile" data-brand-name="LG" data-brand-tile=""><strong>LG</strong></article>
-<article aria-label="Logitech" class="brand-tile" data-brand-name="Logitech" data-brand-tile=""><strong>Logitech</strong></article>
-<article aria-label="Lumens" class="brand-tile" data-brand-name="Lumens" data-brand-tile=""><strong>Lumens</strong></article>
-<article aria-label="NEC" class="brand-tile" data-brand-name="NEC" data-brand-tile=""><strong>NEC</strong></article>
-<article aria-label="Olympia" class="brand-tile" data-brand-name="Olympia" data-brand-tile=""><strong>Olympia</strong></article>
-<article aria-label="Optoma" class="brand-tile" data-brand-name="Optoma" data-brand-tile=""><strong>Optoma</strong></article>
-<article aria-label="Philips" class="brand-tile" data-brand-name="Philips" data-brand-tile=""><strong>Philips</strong></article>
-<article aria-label="Poly" class="brand-tile" data-brand-name="Poly" data-brand-tile=""><strong>Poly</strong></article>
-<article aria-label="Rexel" class="brand-tile" data-brand-name="Rexel" data-brand-tile=""><strong>Rexel</strong></article>
-<article aria-label="Samsung" class="brand-tile" data-brand-name="Samsung" data-brand-tile=""><strong>Samsung</strong></article>
-<article aria-label="Shure" class="brand-tile" data-brand-name="Shure" data-brand-tile=""><strong>Shure</strong></article>
-<article aria-label="Sony" class="brand-tile" data-brand-name="Sony" data-brand-tile=""><strong>Sony</strong></article>
-<article aria-label="ViewSonic" class="brand-tile" data-brand-name="ViewSonic" data-brand-tile=""><strong>ViewSonic</strong></article>
+<article aria-label="Jabra" class="brand-tile" data-brand-name="Jabra" data-brand-tile="" hidden><strong>Jabra</strong></article>
+<article aria-label="Kobra" class="brand-tile" data-brand-name="Kobra" data-brand-tile="" hidden><strong>Kobra</strong></article>
+<article aria-label="Kramer" class="brand-tile" data-brand-name="Kramer" data-brand-tile="" hidden><strong>Kramer</strong></article>
+<article aria-label="Leitz" class="brand-tile" data-brand-name="Leitz" data-brand-tile="" hidden><strong>Leitz</strong></article>
+<article aria-label="LG" class="brand-tile" data-brand-name="LG" data-brand-tile="" hidden><strong>LG</strong></article>
+<article aria-label="Lumens" class="brand-tile" data-brand-name="Lumens" data-brand-tile="" hidden><strong>Lumens</strong></article>
+<article aria-label="NEC" class="brand-tile" data-brand-name="NEC" data-brand-tile="" hidden><strong>NEC</strong></article>
+<article aria-label="Olympia" class="brand-tile" data-brand-name="Olympia" data-brand-tile="" hidden><strong>Olympia</strong></article>
+<article aria-label="Optoma" class="brand-tile" data-brand-name="Optoma" data-brand-tile="" hidden><strong>Optoma</strong></article>
+<article aria-label="Philips" class="brand-tile" data-brand-name="Philips" data-brand-tile="" hidden><strong>Philips</strong></article>
+<article aria-label="Poly" class="brand-tile" data-brand-name="Poly" data-brand-tile="" hidden><strong>Poly</strong></article>
+<article aria-label="Rexel" class="brand-tile" data-brand-name="Rexel" data-brand-tile="" hidden><strong>Rexel</strong></article>
+<article aria-label="Samsung" class="brand-tile" data-brand-name="Samsung" data-brand-tile="" hidden><strong>Samsung</strong></article>
+<article aria-label="Shure" class="brand-tile" data-brand-name="Shure" data-brand-tile="" hidden><strong>Shure</strong></article>
+<article aria-label="Sony" class="brand-tile" data-brand-name="Sony" data-brand-tile="" hidden><strong>Sony</strong></article>
 </div>
-<nav aria-label="Ofis ve Görüntüleme Çözümleri marka sayfaları" class="brand-pagination" data-brand-pagination="" hidden="">
+<nav aria-label="Ofis ve Görüntüleme Çözümleri marka sayfaları" class="brand-pagination" data-brand-pagination="">
 <button class="brand-page-button" data-brand-prev="" disabled="" type="button">Önceki</button>
-<span aria-live="polite" class="brand-page-status" data-brand-page="">Sayfa 1 / 1</span>
-<button class="brand-page-button" data-brand-next="" disabled="" type="button">Sonraki</button>
+<span aria-live="polite" class="brand-page-status" data-brand-page="">Sayfa 1 / 2</span>
+<button class="brand-page-button" data-brand-next="" type="button">Sonraki</button>
 </nav>
 </section>
 <section id="marka-guvenlik-satis" class="brand-category-section" data-brand-name="Güvenlik ve Satış Noktası Sistemleri" data-brand-section="">
 <header class="brand-category-heading"><h2><svg class="theme-activity-icon" aria-hidden="true" focusable="false" viewBox="0 0 32 32"> <path d="M16 2.5C20 6 23.5 7 28 8v7c0 7-5 12.2-12 15C9 27.2 4 22 4 15V8c4.5-1 8-2 12-5.5Z"/> </svg><span>Güvenlik ve Satış Noktası Sistemleri</span></h2><a href="urun-gruplari.html#guvenlik-satis">İlgili ürünleri incele <span aria-hidden="true">→</span></a></header>
 <div aria-live="polite" class="brand-tile-grid" data-brand-grid="">
+<article aria-label="Hikvision" class="brand-tile" data-brand-name="Hikvision" data-brand-tile=""><strong>Hikvision</strong></article>
+<article aria-label="Zebra" class="brand-tile" data-brand-name="Zebra" data-brand-tile=""><strong>Zebra</strong></article>
+<article aria-label="Ingenico" class="brand-tile" data-brand-name="Ingenico" data-brand-tile=""><strong>Ingenico</strong></article>
+<article aria-label="Dahua" class="brand-tile" data-brand-name="Dahua" data-brand-tile=""><strong>Dahua</strong></article>
+<article aria-label="Honeywell" class="brand-tile" data-brand-name="Honeywell" data-brand-tile=""><strong>Honeywell</strong></article>
+<article aria-label="Datalogic" class="brand-tile" data-brand-name="Datalogic" data-brand-tile=""><strong>Datalogic</strong></article>
+<article aria-label="Paradox" class="brand-tile" data-brand-name="Paradox" data-brand-tile=""><strong>Paradox</strong></article>
+<article aria-label="Verifone" class="brand-tile" data-brand-name="Verifone" data-brand-tile=""><strong>Verifone</strong></article>
+<article aria-label="Profilo" class="brand-tile" data-brand-name="Profilo" data-brand-tile=""><strong>Profilo</strong></article>
 <article aria-label="ACTi" class="brand-tile" data-brand-name="ACTi" data-brand-tile=""><strong>ACTi</strong></article>
 <article aria-label="Ajax" class="brand-tile" data-brand-name="Ajax" data-brand-tile=""><strong>Ajax</strong></article>
 <article aria-label="Argox" class="brand-tile" data-brand-name="Argox" data-brand-tile=""><strong>Argox</strong></article>
@@ -395,46 +435,37 @@
 <article aria-label="Bosch" class="brand-tile" data-brand-name="Bosch" data-brand-tile=""><strong>Bosch</strong></article>
 <article aria-label="Brother" class="brand-tile" data-brand-name="Brother" data-brand-tile=""><strong>Brother</strong></article>
 <article aria-label="Citizen" class="brand-tile" data-brand-name="Citizen" data-brand-tile=""><strong>Citizen</strong></article>
-<article aria-label="Dahua" class="brand-tile" data-brand-name="Dahua" data-brand-tile=""><strong>Dahua</strong></article>
-<article aria-label="Datalogic" class="brand-tile" data-brand-name="Datalogic" data-brand-tile=""><strong>Datalogic</strong></article>
-<article aria-label="Datecs" class="brand-tile" data-brand-name="Datecs" data-brand-tile=""><strong>Datecs</strong></article>
-<article aria-label="dormakaba" class="brand-tile" data-brand-name="dormakaba" data-brand-tile=""><strong>dormakaba</strong></article>
-<article aria-label="DSC" class="brand-tile" data-brand-name="DSC" data-brand-tile=""><strong>DSC</strong></article>
-<article aria-label="Epson" class="brand-tile" data-brand-name="Epson" data-brand-tile=""><strong>Epson</strong></article>
-<article aria-label="EZVIZ" class="brand-tile" data-brand-name="EZVIZ" data-brand-tile=""><strong>EZVIZ</strong></article>
-<article aria-label="Godex" class="brand-tile" data-brand-name="Godex" data-brand-tile=""><strong>Godex</strong></article>
-<article aria-label="Hanwha" class="brand-tile" data-brand-name="Hanwha" data-brand-tile=""><strong>Hanwha</strong></article>
-<article aria-label="HID Global" class="brand-tile" data-brand-name="HID Global" data-brand-tile=""><strong>HID Global</strong></article>
-<article aria-label="Hikvision" class="brand-tile" data-brand-name="Hikvision" data-brand-tile=""><strong>Hikvision</strong></article>
-<article aria-label="Honeywell" class="brand-tile" data-brand-name="Honeywell" data-brand-tile=""><strong>Honeywell</strong></article>
-<article aria-label="HPRT" class="brand-tile" data-brand-name="HPRT" data-brand-tile=""><strong>HPRT</strong></article>
-<article aria-label="Hugin" class="brand-tile" data-brand-name="Hugin" data-brand-tile=""><strong>Hugin</strong></article>
-<article aria-label="Ingenico" class="brand-tile" data-brand-name="Ingenico" data-brand-tile=""><strong>Ingenico</strong></article>
-<article aria-label="Newland" class="brand-tile" data-brand-name="Newland" data-brand-tile=""><strong>Newland</strong></article>
-<article aria-label="Olivetti" class="brand-tile" data-brand-name="Olivetti" data-brand-tile=""><strong>Olivetti</strong></article>
-<article aria-label="Paradox" class="brand-tile" data-brand-name="Paradox" data-brand-tile=""><strong>Paradox</strong></article>
-<article aria-label="PAX" class="brand-tile" data-brand-name="PAX" data-brand-tile=""><strong>PAX</strong></article>
-<article aria-label="Paxton" class="brand-tile" data-brand-name="Paxton" data-brand-tile=""><strong>Paxton</strong></article>
-<article aria-label="Posiflex" class="brand-tile" data-brand-name="Posiflex" data-brand-tile=""><strong>Posiflex</strong></article>
-<article aria-label="Profilo" class="brand-tile" data-brand-name="Profilo" data-brand-tile=""><strong>Profilo</strong></article>
-<article aria-label="Reolink" class="brand-tile" data-brand-name="Reolink" data-brand-tile=""><strong>Reolink</strong></article>
-<article aria-label="Rongta" class="brand-tile" data-brand-name="Rongta" data-brand-tile=""><strong>Rongta</strong></article>
-<article aria-label="Rosslare" class="brand-tile" data-brand-name="Rosslare" data-brand-tile=""><strong>Rosslare</strong></article>
-<article aria-label="Sunmi" class="brand-tile" data-brand-name="Sunmi" data-brand-tile=""><strong>Sunmi</strong></article>
-<article aria-label="Suprema" class="brand-tile" data-brand-name="Suprema" data-brand-tile=""><strong>Suprema</strong></article>
-<article aria-label="Tiandy" class="brand-tile" data-brand-name="Tiandy" data-brand-tile=""><strong>Tiandy</strong></article>
-<article aria-label="TSC" class="brand-tile" data-brand-name="TSC" data-brand-tile=""><strong>TSC</strong></article>
-<article aria-label="Unitech" class="brand-tile" data-brand-name="Unitech" data-brand-tile=""><strong>Unitech</strong></article>
-<article aria-label="Uniview" class="brand-tile" data-brand-name="Uniview" data-brand-tile=""><strong>Uniview</strong></article>
-<article aria-label="Verifone" class="brand-tile" data-brand-name="Verifone" data-brand-tile=""><strong>Verifone</strong></article>
-<article aria-label="Vivotek" class="brand-tile" data-brand-name="Vivotek" data-brand-tile=""><strong>Vivotek</strong></article>
-<article aria-label="Zebra" class="brand-tile" data-brand-name="Zebra" data-brand-tile=""><strong>Zebra</strong></article>
-<article aria-label="ZKTeco" class="brand-tile" data-brand-name="ZKTeco" data-brand-tile=""><strong>ZKTeco</strong></article>
+<article aria-label="Datecs" class="brand-tile" data-brand-name="Datecs" data-brand-tile="" hidden><strong>Datecs</strong></article>
+<article aria-label="dormakaba" class="brand-tile" data-brand-name="dormakaba" data-brand-tile="" hidden><strong>dormakaba</strong></article>
+<article aria-label="DSC" class="brand-tile" data-brand-name="DSC" data-brand-tile="" hidden><strong>DSC</strong></article>
+<article aria-label="Epson" class="brand-tile" data-brand-name="Epson" data-brand-tile="" hidden><strong>Epson</strong></article>
+<article aria-label="EZVIZ" class="brand-tile" data-brand-name="EZVIZ" data-brand-tile="" hidden><strong>EZVIZ</strong></article>
+<article aria-label="Godex" class="brand-tile" data-brand-name="Godex" data-brand-tile="" hidden><strong>Godex</strong></article>
+<article aria-label="Hanwha" class="brand-tile" data-brand-name="Hanwha" data-brand-tile="" hidden><strong>Hanwha</strong></article>
+<article aria-label="HID Global" class="brand-tile" data-brand-name="HID Global" data-brand-tile="" hidden><strong>HID Global</strong></article>
+<article aria-label="HPRT" class="brand-tile" data-brand-name="HPRT" data-brand-tile="" hidden><strong>HPRT</strong></article>
+<article aria-label="Hugin" class="brand-tile" data-brand-name="Hugin" data-brand-tile="" hidden><strong>Hugin</strong></article>
+<article aria-label="Newland" class="brand-tile" data-brand-name="Newland" data-brand-tile="" hidden><strong>Newland</strong></article>
+<article aria-label="Olivetti" class="brand-tile" data-brand-name="Olivetti" data-brand-tile="" hidden><strong>Olivetti</strong></article>
+<article aria-label="PAX" class="brand-tile" data-brand-name="PAX" data-brand-tile="" hidden><strong>PAX</strong></article>
+<article aria-label="Paxton" class="brand-tile" data-brand-name="Paxton" data-brand-tile="" hidden><strong>Paxton</strong></article>
+<article aria-label="Posiflex" class="brand-tile" data-brand-name="Posiflex" data-brand-tile="" hidden><strong>Posiflex</strong></article>
+<article aria-label="Reolink" class="brand-tile" data-brand-name="Reolink" data-brand-tile="" hidden><strong>Reolink</strong></article>
+<article aria-label="Rongta" class="brand-tile" data-brand-name="Rongta" data-brand-tile="" hidden><strong>Rongta</strong></article>
+<article aria-label="Rosslare" class="brand-tile" data-brand-name="Rosslare" data-brand-tile="" hidden><strong>Rosslare</strong></article>
+<article aria-label="Sunmi" class="brand-tile" data-brand-name="Sunmi" data-brand-tile="" hidden><strong>Sunmi</strong></article>
+<article aria-label="Suprema" class="brand-tile" data-brand-name="Suprema" data-brand-tile="" hidden><strong>Suprema</strong></article>
+<article aria-label="Tiandy" class="brand-tile" data-brand-name="Tiandy" data-brand-tile="" hidden><strong>Tiandy</strong></article>
+<article aria-label="TSC" class="brand-tile" data-brand-name="TSC" data-brand-tile="" hidden><strong>TSC</strong></article>
+<article aria-label="Unitech" class="brand-tile" data-brand-name="Unitech" data-brand-tile="" hidden><strong>Unitech</strong></article>
+<article aria-label="Uniview" class="brand-tile" data-brand-name="Uniview" data-brand-tile="" hidden><strong>Uniview</strong></article>
+<article aria-label="Vivotek" class="brand-tile" data-brand-name="Vivotek" data-brand-tile="" hidden><strong>Vivotek</strong></article>
+<article aria-label="ZKTeco" class="brand-tile" data-brand-name="ZKTeco" data-brand-tile="" hidden><strong>ZKTeco</strong></article>
 </div>
-<nav aria-label="Güvenlik ve Satış Noktası Sistemleri marka sayfaları" class="brand-pagination" data-brand-pagination="" hidden="">
+<nav aria-label="Güvenlik ve Satış Noktası Sistemleri marka sayfaları" class="brand-pagination" data-brand-pagination="">
 <button class="brand-page-button" data-brand-prev="" disabled="" type="button">Önceki</button>
-<span aria-live="polite" class="brand-page-status" data-brand-page="">Sayfa 1 / 1</span>
-<button class="brand-page-button" data-brand-next="" disabled="" type="button">Sonraki</button>
+<span aria-live="polite" class="brand-page-status" data-brand-page="">Sayfa 1 / 3</span>
+<button class="brand-page-button" data-brand-next="" type="button">Sonraki</button>
 </nav>
 </section>
 </div>
@@ -477,6 +508,6 @@
 <div class="footer-bottom"><div class="container footer-bottom-inner"><p>© <span id="current-year">2026</span> VK Bilgisayar. Tüm hakları saklıdır.</p><div><a href="iletisim.html">İletişim</a><span aria-hidden="true">·</span><a href="gizlilik.html">KVKK Aydınlatma Metni</a><span aria-hidden="true">·</span><a href="#main-content">Başa dön ↑</a></div></div></div>
 </footer>
 <a aria-label="WhatsApp ile iletişime geç" class="floating-contact" href="https://wa.me/905338906505" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M20.5 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20l1.2-4.7A8.5 8.5 0 1 1 20.5 11.5Z"></path><path d="M8.5 8.2c.4-.8.7-.8 1-.8h.4c.2 0 .4.1.5.4l.7 1.6c.1.2.1.4 0 .6l-.5.7c-.2.2-.2.4 0 .6.4.7 1.1 1.4 1.8 1.8.2.1.4.1.6-.1l.8-.9c.2-.2.4-.2.7-.1l1.5.7c.3.1.4.3.4.5 0 .4-.2 1.2-.7 1.6-.5.4-1.2.6-2 .4-1.1-.3-2.5-1-3.8-2.3-1.2-1.2-2-2.7-2.2-3.5-.2-.6.1-1.2.4-1.6Z"></path></svg></a>
-<script defer src="brand-directory.js?v=20261113-site-tema"></script>
+<script defer src="brand-directory.js?v=20261117-ilk-yukleme"></script>
 </body>
 </html>

@@ -414,7 +414,7 @@
 }
 
 .category-vk-hover::after {
-  background: url("assets/VKSembol.png") center / clamp(76px, 42%, 140px) auto no-repeat;
+  background: url("assets/vk-sembol-420.webp") center / clamp(76px, 42%, 140px) auto no-repeat;
   transition: opacity 280ms ease;
 }
 
@@ -791,10 +791,6 @@
 
 .inner-page .error-actions {
   margin-top: 0;
-}
-
-.inner-page .floating-contact[data-preview-blocked] {
-  display: none;
 }
 
 @media (min-width: 560px) {
